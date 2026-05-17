@@ -16,8 +16,8 @@
 - 🔭 Currently working on:
   **Predictor.com**
 
-- 🌱 Currently learning:
-  **Data Science, DSA, Machine Learning & Data Visualization**
+- 🌱 Skills: 
+  **Data Science, PowerBI, Excel, DSA, Machine Learning, Data Visualization, International Finance Management & International Business**
 
 - 👨‍💻 All projects available at:
   <a href="https://github.com/Anandsavran">GitHub Profile</a>
