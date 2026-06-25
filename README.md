@@ -135,8 +135,9 @@ status     : Open to opportunities 🟢
 
 <!-- Trophies -->
 <img src="https://github-profile-trophy-fork-two.vercel.app/?username=anandsavran&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies"/>
-<img src="https://github-profile-trophy-winning.vercel.app/?username=anandsavran&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies"/>
-<img src="https://trophygithubreadmelang.cybee.dpdns.org/?username=anandsavran&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=anandsavran&theme=algolia&margin-w=15&margin-h=15&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4" alt="GitHub Trophies"/>
+</div>
+
 
 </div>
 
