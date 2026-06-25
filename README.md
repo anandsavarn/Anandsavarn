@@ -7,6 +7,7 @@
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=Profile+Views&color=00d9ff&style=for-the-badge)](https://github.com/Anandsavarn)
+[![Portfolio](https://img.shields.io/badge/Portfolio-anandsavarn.vercel.app-00d9ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://anandsavarn.vercel.app)
 [![GitHub Followers](https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&color=00d9ff&labelColor=0d1117&label=Followers)](https://github.com/Anandsavarn?tab=followers)
 
 </div>
@@ -19,6 +20,7 @@
 name       : Anand Kumar
 education  : B.Tech CSE (Data Science) at Lovely Professional University, Punjab (India)
 focus      : Data Analyst | Data Engineer | ML Engineer
+portfolio  : https://anandsavarn.vercel.app
 flagship   : Predictor.com — AI-powered stock market analytics platform
 email      : anandsavarn@gmail.com
 status     : Open to opportunities 🟢
@@ -144,8 +146,10 @@ status     : Open to opportunities 🟢
 
 ## 🌐 Connect With Me
 
+
 <div align="center">
- 
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-00d9ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://anandsavarn.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/anandsavarn)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/anandsavarn/)
@@ -165,6 +169,6 @@ status     : Open to opportunities 🟢
 
 ### 💬 *"Consistency beats talent when talent doesn't work hard."*
 
-**📫 anandsavarn@gmail.com** · **👨‍💻 [github.com/Anandsavarn](https://github.com/Anandsavarn)**
+**📫 anandsavarn@gmail.com** · **👨‍💻 [github.com/Anandsavarn](https://github.com/Anandsavarn)** · **🌐 [anandsavarn.vercel.app](https://anandsavarn.vercel.app)**
 
 </div>
