@@ -134,7 +134,6 @@ status     : Open to opportunities 🟢
 <div align="center">
 
 <!-- Trophies -->
-<img src="https://github-profile-trophy-fork-two.vercel.app/?username=anandsavran&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies"/>
 <img src="https://github-profile-trophy.vercel.app/?username=anandsavran&theme=algolia&margin-w=15&margin-h=15&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4" alt="GitHub Trophies"/>
 </div>
 
@@ -146,7 +145,7 @@ status     : Open to opportunities 🟢
 ## 🌐 Connect With Me
 
 <div align="center">
-
+ 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/anandsavarn)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/anandsavarn/)
