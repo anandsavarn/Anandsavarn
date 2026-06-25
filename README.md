@@ -2,12 +2,12 @@
 
 # 👨‍💻 Anand Kumar
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Data+Science+%26+Engineering+Enthusiast;AI+%7C+ML+%7C+Analytics+%7C+Full+Stack;Building+Predictor.com+%F0%9F%9A%80;Turning+Data+into+Decisions+%F0%9F%93%8A" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=Data+Science+%26+Engineering+Enthusiast;AI+%7C+ML+%7C+Analytics+%7C+Full+Stack;Building+Predictor.com+%F0%9F%9A%80;Turning+Data+into+Decisions+%F0%9F%93%8A" alt="Typing SVG" />
 
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=Profile+Views&color=00d9ff&style=for-the-badge)](https://github.com/Anandsavarn)
-[![GitHub Followers](https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&color=00d9ff&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
+[![GitHub Followers](https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&color=00d9ff&labelColor=0d1117&label=Followers)](https://github.com/Anandsavarn?tab=followers)
 
 </div>
 
@@ -33,7 +33,7 @@ status     : Open to opportunities 🟢
 <td width="50%">
 
 **🔭 Building**
-- **Predictor.com** — AI stock prediction platform with LSTM/TensorFlow, Flask & React
+- **Predictor.com** — AI stock prediction platform with LSTM / TensorFlow, Flask & React
 
 **🌱 Exploring**
 - Advanced ML pipelines & real-time data engineering
@@ -48,6 +48,7 @@ status     : Open to opportunities 🟢
 - Full-stack apps with data at the core
 
 **🎯 Target Roles**
+
 `Data Analyst` · `Data Engineer` · `ML Engineer`
 
 </td>
@@ -66,12 +67,17 @@ status     : Open to opportunities 🟢
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![XML](https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=xml&logoColor=white)
 
 **Data & ML**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
@@ -97,20 +103,38 @@ status     : Open to opportunities 🟢
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anandsavran&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavran&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
+<!-- Stats Card: using vercel with cache_seconds to reduce rate limit hits -->
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anandsavran&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&cache_seconds=1800" alt="Anand's GitHub Stats"/>
+&nbsp;&nbsp;
+<!-- Top Languages Card -->
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavran&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&cache_seconds=1800" alt="Top Languages"/>
 
 </div>
 
+<br/>
+
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=anandsavran&theme=tokyonight&hide_border=true&background=0d1117" alt="streak stats"/>
+<!-- Streak Stats: FIXED — using streak-stats.demolab.com (herokuapp is dead) -->
+<img src="https://streak-stats.demolab.com/?user=anandsavran&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" alt="GitHub Streak"/>
 
 </div>
 
+<br/>
+
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=anandsavran&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="trophies"/>
+<!-- Activity Graph: reliable alternative for contribution visualization -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavran&theme=tokyo-night&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&hide_border=true" alt="Contribution Graph"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<!-- Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=anandsavran&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies"/>
 
 </div>
 
@@ -139,6 +163,6 @@ status     : Open to opportunities 🟢
 
 ### 💬 *"Consistency beats talent when talent doesn't work hard."*
 
-**📫 anandsavarn@gmail.com** · **👨‍💻 [github.com/Anandsavran](https://github.com/Anandsavran)**
+**📫 anandsavarn@gmail.com** · **👨‍💻 [github.com/Anandsavran](https://github.com/Anandsavarn)**
 
 </div>
