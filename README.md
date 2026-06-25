@@ -6,8 +6,8 @@
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=anandsavran&label=Profile+Views&color=00d9ff&style=for-the-badge)](https://github.com/Anandsavran)
-[![GitHub Followers](https://img.shields.io/github/followers/anandsavran?style=for-the-badge&color=00d9ff&labelColor=0d1117)](https://github.com/Anandsavran?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=Profile+Views&color=00d9ff&style=for-the-badge)](https://github.com/Anandsavarn)
+[![GitHub Followers](https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&color=00d9ff&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
 
 </div>
 
