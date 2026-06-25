@@ -104,10 +104,10 @@ status     : Open to opportunities 🟢
 <div align="center">
 
 <!-- Stats Card: using vercel with cache_seconds to reduce rate limit hits -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anandsavran&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&cache_seconds=1800" alt="Anand's GitHub Stats"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&cache_seconds=1800" alt="Anand's GitHub Stats"/>
 &nbsp;&nbsp;
 <!-- Top Languages Card -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavran&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&cache_seconds=1800" alt="Top Languages"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&cache_seconds=1800" alt="Top Languages"/>
 
 </div>
 
@@ -116,7 +116,7 @@ status     : Open to opportunities 🟢
 <div align="center">
 
 <!-- Streak Stats: FIXED — using streak-stats.demolab.com (herokuapp is dead) -->
-<img src="https://streak-stats.demolab.com/?user=anandsavran&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" alt="GitHub Streak"/>
 
 </div>
 
@@ -125,7 +125,7 @@ status     : Open to opportunities 🟢
 <div align="center">
 
 <!-- Activity Graph: reliable alternative for contribution visualization -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavran&theme=tokyo-night&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&hide_border=true" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&hide_border=true" alt="Contribution Graph"/>
 
 </div>
 
@@ -134,7 +134,7 @@ status     : Open to opportunities 🟢
 <div align="center">
 
 <!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=anandsavran&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=anandsavarn&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true&column=7" alt="GitHub Trophies"/>
 
 </div>
 
@@ -163,6 +163,6 @@ status     : Open to opportunities 🟢
 
 ### 💬 *"Consistency beats talent when talent doesn't work hard."*
 
-**📫 anandsavarn@gmail.com** · **👨‍💻 [github.com/Anandsavran](https://github.com/Anandsavarn)**
+**📫 anandsavarn@gmail.com** · **👨‍💻 [github.com/Anandsavarn](https://github.com/Anandsavarn)**
 
 </div>
