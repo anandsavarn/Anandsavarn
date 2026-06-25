@@ -17,7 +17,7 @@
 
 ```yaml
 name       : Anand Kumar
-education  : B.Tech CSE (Data Science) @ LPU, Punjab
+education  : B.Tech CSE (Data Science) at Lovely Professional University, Punjab (India)
 focus      : Data Analyst | Data Engineer | ML Engineer
 flagship   : Predictor.com — AI-powered stock market analytics platform
 email      : anandsavarn@gmail.com
