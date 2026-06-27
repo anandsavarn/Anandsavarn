@@ -38,51 +38,6 @@ class AnandKumar:
 
 ---
 
-## ◈ CURRENT MISSION
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**`// BUILDING`**
-```
-▸ Predictor.com          [LIVE]
-  LSTM · Flask · React · NSE/BSE
-
-▸ NeuroLoom              [PATENT]
-  EEG → GAN Generative Art AI
- 
-▸ Weather Intelligence   [BI]
-  Power BI · DAX · REST API
-
-▸ Trading Signal Engine  [ML]
-  RSI · MACD · LSTM · Backtest
-```
-
-</td>
-<td width="50%" valign="top">
-
-**`// STRENGTHS`**
-```
-▸ End-to-end ML pipelines
-  raw data → deployed model
-
-▸ Power BI dashboards
-  DAX · KPI design · live data
-
-▸ Full-stack data products
-  idea → build → ship → iterate
-
-▸ Financial analytics
-  OHLCV · indicators · LSTM
-```
-
-</td>
-</tr>
-</table>
-
----
-
 ## ◈ PROJECT SHOWCASE
 
 <table>
