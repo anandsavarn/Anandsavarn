@@ -1,13 +1,12 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?=type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=170&section=header&text=ANAND%20KUMAR&fontSize=78&fontColor=ffffff&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=170&section=header&text=ANAND%20KUMAR&fontSize=78&fontColor=ffffff&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
+</div>
 
-</div> 
-   
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=+B.Tech+Computer+Science+Engineer+(Data+Science)+from+Lovely+Professional+University;+Building+Predictor.com+—+Live+AI+Stock+Analytics+Platform;+Turning+Raw+Data+into+Deployable+Intelligence;+Open+to+Data+Analyst+·+ML+Engineer+·+BI+Analyst+Roles)](https://github.com/Anandsavarn)
 
-<br/> 
+<br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=flat-square)](https://github.com/Anandsavarn)
 &nbsp;`·`&nbsp;
@@ -16,6 +15,35 @@
 [![Followers](https://img.shields.io/github/followers/anandsavarn?style=flat-square&color=00d9ff&label=FOLLOWERS&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
 &nbsp;`·`&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
+
+</div>
+
+---
+
+## ◈ 3D AI DASHBOARD
+
+<!-- ═══════════════════════════════════════════════════════════════════
+     STEP 1 → Deploy `dashboard/index.html` to GitHub Pages
+     STEP 2 → Replace YOUR_USERNAME below with: anandsavarn
+     STEP 3 → Replace YOUR_REPO below with your repo name (e.g. anandsavarn)
+     Live URL will be: https://anandsavarn.github.io/anandsavarn/dashboard/
+     ═══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+<!-- OPTION A: Live embedded iframe (works on portfolio sites, not on github.com) -->
+<!--
+<iframe src="https://anandsavarn.github.io/anandsavarn/dashboard/" 
+  width="960" height="600" frameborder="0" 
+  style="border-radius:16px;border:1px solid #00d9ff22;">
+</iframe>
+-->
+
+<!-- OPTION B: Clickable preview badge → opens the live dashboard -->
+[![3D AI Dashboard — Click to View Live](https://img.shields.io/badge/◈_3D_AI_DASHBOARD-Click_to_View_Live-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=020818)](https://anandsavarn.github.io/anandsavarn/dashboard/)
+
+<!-- OPTION C: After recording a GIF of your dashboard, upload it and uncomment: -->
+<!-- <img src="./dashboard/preview.gif" width="100%" style="border-radius:12px"/> -->
 
 </div>
 
@@ -50,7 +78,7 @@ class AnandKumar:
 
 ▸ NeuroLoom              [PATENT]
   EEG → GAN Generative Art AI
- 
+
 ▸ Weather Intelligence   [BI]
   Power BI · DAX · REST API
 
@@ -287,7 +315,7 @@ class AnandKumar:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=anandsavaran&theme=algolia&margin-w=12&margin-h=12&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4"/>
+<img src="https://github-profile-trophy.vercel.app/?username=anandsavarn&theme=algolia&margin-w=12&margin-h=12&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4"/>
 
 </div>
 
