@@ -979,21 +979,31 @@ Expected Graduation: August 2027
 | 🤝 Open-source Collaboration | ✅ Open |
 
 </div>
+## 🌐 Connect With Me
+
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-00d9ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://anandsavarn.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/anandsavarn)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/anandsavarn/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/anandsavarn)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/23034645/anand-kumar)
+[![GeeksForGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/anandswqmi/)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/anand_savarn)
+[![HackerEarth](https://img.shields.io/badge/HackerEarth-2C3454?style=for-the-badge&logo=hackerearth&logoColor=white)](https://www.hackerearth.com/@anandsavarn/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@anandsavarn1)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/anand_savarn/)
+
+</div>
 
 ---
 
 <div align="center">
 
-<br/>
+### 💬 *"Consistency beats talent when talent doesn't work hard."*
 
-<img src="https://komarev.com/ghpvc/?username=Anandsavran&color=4da6ff&style=for-the-badge&label=Profile+Views"/>
-
-<br/><br/>
-
-*"I don't just learn tools — I build products with them."*
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:145a32,20:0e6655,40:1a5276,60:0d3b7a,80:0d1b3e,100:0a0a1a&height=130&section=footer" width="100%"/>
+**📫 anandsavarn@gmail.com** · **👨‍💻 [github.com/Anandsavarn](https://github.com/Anandsavarn)** · **🌐 [anandsavarn.vercel.app](https://anandsavarn.vercel.app)**
 
 </div>
