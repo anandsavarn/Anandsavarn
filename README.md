@@ -33,7 +33,7 @@ https://github.com/anandsavarn/Anandsavarn/blob/main/dashboard/dashboard
 </div>
 <div align="center">
 
-[![Portfolio 3D Dashboard](./preview.png)](https://github.com/anandsavarn/Anandsavarn/blob/main/index/)
+[![Portfolio 3D Dashboard](./preview.png)](https://github.com/anandsavarn/Anandsavarn/blob/main/index.html)
 
 </div>
 
