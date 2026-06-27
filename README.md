@@ -317,10 +317,10 @@ class AnandKumar:
 <div align="center">
 
 ```
-⟩_ "Consistency beats talent when talent doesn't work hard."
+"Consistency beats talent when talent doesn't work hard."
 ```
 
-`📡 anandsavarn@gmail.com` &nbsp;·&nbsp; [`github.com/Anandsavarn`](https://github.com/Anandsavarn) &nbsp;·&nbsp; [`anandsavarn.vercel.app`](https://anandsavarn.vercel.app)
+📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00d9ff,50:050520,100:000000&height=130&section=footer" width="100%"/>
 
