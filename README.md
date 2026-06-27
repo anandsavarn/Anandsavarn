@@ -22,9 +22,9 @@
 ---
 ## ◈ 3D PORTFOLIO DASHBOARD
 https://github.com/anandsavarn/Anandsavarn/blob/main/index.html
-[![3D Dashboard Preview](https://img.shields.io/badge/◈_3D_DASHBOARD-LIVE-00d9ff?style=flat-square)](https://github.com/anandsavarn/Anandsavarn/blob/main/index.html)
+[![3D Dashboard Preview](https://img.shields.io/badge/◈_3D_DASHBOARD-LIVE-00d9ff?style=flat-square)](https://github.com/anandsavarn/Anandsavarn/blob/main/index/)
 
-> 🌐 [**Click to open interactive 3D portfolio →**](https://github.com/anandsavarn/Anandsavarn/blob/main/index.html)
+> 🌐 [**Click to open interactive 3D portfolio →**](https://github.com/anandsavarn/Anandsavarn/blob/main/index)
 
 ## ◈ SYSTEM PROFILE
 
