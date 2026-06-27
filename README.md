@@ -70,15 +70,10 @@ class AnandKumar:
 **LSTM Deep Learning · NSE Data**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
-
-`TensorFlow` `Keras` `yfinance` `Plotly` `NumPy`
-
 </td>
 <td width="50%" valign="top">
-
 ### ⬡ NEUROLOOM
 **EEG → Generative Art AI** *(Patent)*
-
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
 [![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
 
@@ -91,9 +86,6 @@ class AnandKumar:
 **235K+ Records · Excel + Power BI**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/EV-Population-Data-Analysis)
-
-`Excel` `Power BI` `Pandas` `Plotly` `Folium`
-
 </td>
 <td width="50%" valign="top">
 
@@ -101,8 +93,6 @@ class AnandKumar:
 **Smart Parenting Android App**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NurtureNest)
-
-`Kotlin` `Android SDK` `AlarmManager` `BroadcastReceiver`
 
 </td>
 </tr>
