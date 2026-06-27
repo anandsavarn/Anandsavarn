@@ -40,7 +40,7 @@
 -->
 
 <!-- OPTION B: Clickable preview badge → opens the live dashboard -->
-[![3D AI Dashboard — Click to View Live](https://img.shields.io/badge/◈_3D_AI_DASHBOARD-Click_to_View_Live-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=020818)](https://github.com/anandsavarn/Anandsavarn/blob/main/dashboard/dashboard-index.html)
+[![3D AI Dashboard — Click to View Live](https://img.shields.io/badge/◈_3D_AI_DASHBOARD-Click_to_View_Live-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=020818)](https://github.com/anandsavarn/Anandsavarn/blob/main/dashboard/)
 
 <!-- OPTION C: After recording a GIF of your dashboard, upload it and uncomment: -->
 <!-- <img src="./dashboard/preview.gif" width="100%" style="border-radius:12px"/> -->
