@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=150&section=header&text=ANAND%20KUMAR&fontSize=78&fontColor=ffffff&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=150&section=header&text=ANAND%20KUMAR&fontSize=78&fontColor=ffffff&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
 
 </div> 
    
@@ -10,11 +10,11 @@
 <br/> 
 
 [![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=flat-square)](https://github.com/Anandsavarn)
-&nbsp;`·`&nbsp;
+&nbsp;&nbsp;
 [![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-anandsavarn.vercel.app-00d9ff?style=flat-square&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
-&nbsp;`·`&nbsp;
+&nbsp;&nbsp;
 [![Followers](https://img.shields.io/github/followers/anandsavarn?style=flat-square&color=00d9ff&label=FOLLOWERS&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
-&nbsp;`·`&nbsp;
+&nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
 
 </div>
