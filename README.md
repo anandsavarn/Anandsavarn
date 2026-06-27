@@ -317,7 +317,7 @@ class AnandKumar:
 <div align="center">
 
 ```
-"Consistency beats talent when talent doesn't work hard."
+*Consistency beats talent when talent doesn't work hard.*
 ```
 
 📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
