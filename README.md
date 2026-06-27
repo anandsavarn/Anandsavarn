@@ -1,4 +1,5 @@
 <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,20:0d1b3e,40:0d3b7a,60:1a5276,80:0e6655,100:145a32&height=280&section=header&text=Anand%20Kumar&fontSize=62&fontColor=ffffff&fontAlignY=36&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20Android%20Dev%20%7C%202%C3%97%20Patent%20Inventor&descAlignY=55&descColor=aaddff&animation=fadeIn" width="100%"/>
 
 # 👨‍💻 Anand Kumar
 
