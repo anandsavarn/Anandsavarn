@@ -11,11 +11,11 @@
 <br/> 
 
 [![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=flat-square)](https://github.com/Anandsavarn)
-&nbsp;`·`&nbsp;
+&nbsp;&nbsp;
 [![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-anandsavarn.vercel.app-00d9ff?style=flat-square&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
-&nbsp;`·`&nbsp;
+&nbsp;&nbsp;
 [![Followers](https://img.shields.io/github/followers/anandsavarn?style=flat-square&color=00d9ff&label=FOLLOWERS&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
-&nbsp;`·`&nbsp;
+&nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
 
 </div>
