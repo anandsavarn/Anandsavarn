@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=+B.Tech+Computer+Science+Engineer+(Data+Science)+from+Lovely+Professional+University;+Building+Predictor.com+—+Live+AI+Stock+Analytics+Platform;+Patent|+NeuroLoom%2B;+Turning+Raw+Data+into+Deployable+Intelligence;+Open+to+Data+Analyst+·+ML+Engineer+·+BI+Analyst+Roles)](https://github.com/Anandsavarn)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=+B.Tech+Computer+Science+Engineer+(Data+Science)+from+Lovely+Professional+University;+Building+Predictor.com+—+Live+AI+Stock+Analytics+Platform;+Turning+Raw+Data+into+Deployable+Intelligence;+Open+to+Data+Analyst+·+ML+Engineer+·+BI+Analyst+Roles)](https://github.com/Anandsavarn)
 
 <br/> 
 
