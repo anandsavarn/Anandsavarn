@@ -1,9 +1,12 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,20:0d1b3e,40:0d3b7a,60:1a5276,80:0e6655,100:145a32&height=280&section=header&text=Anand%20Kumar&fontSize=62&fontColor=ffffff&fontAlignY=36"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,20:0d1b3e,40:0d3b7a,60:1a5276,80:0e6655,100:145a32&height=280&section=header&text=Anand%20Kumar&fontSize=62&fontColor=ffffff&fontAlignY=36"
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=Data+Science+%26+Engineering+Enthusiast;AI+%7C+ML+%7C+Analytics+%7C+Full+Stack;Building+Predictor.com+%F0%9F%9A%80;Turning+Data+into+Decisions+%F0%9F%93%8A" alt="Typing SVG" />
+
+<br/>
+
 
 # 👨‍💻 Anand Kumar
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=650&lines=Data+Science+%26+Engineering+Enthusiast;AI+%7C+ML+%7C+Analytics+%7C+Full+Stack;Building+Predictor.com+%F0%9F%9A%80;Turning+Data+into+Decisions+%F0%9F%93%8A" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,20:0d1b3e,40:0d3b7a,60:1a5276,80:0e6655,100:145a32&height=280&section=header&text=Anand%20Kumar&fontSize=62&fontColor=ffffff&fontAlignY=36&lines=Data+Science+%26+Engineering+Enthusiast;AI+%7C+ML+%7C+Analytics+%7C+Full+Stack;Building+Predictor.com+%F0%9F%9A%80;Turning+Data+into+Decisions+%F0%9F%93%8A" alt="Typing SVG" />
 
 <br/>
 
