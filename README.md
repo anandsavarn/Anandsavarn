@@ -44,12 +44,6 @@ class AnandKumar:
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Predictor.com)
 [![Live](https://img.shields.io/badge/LIVE-00C896?style=flat-square)](https://predictor-65n3.onrender.com)
 [![Patent](https://img.shields.io/badge/PATENT_FILED-0A66C2?style=flat-square)]()
-
-```
-
-```
-`LSTM` `Flask` `React` `MongoDB` `yfinance` `JWT`
-
 </td>
 <td width="50%" valign="top">
 
@@ -57,12 +51,6 @@ class AnandKumar:
 **Real-Time Forecast Analytics**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Weather-Analytics-Dashboard)
-
-```
-
-```
-`Power BI` `DAX` `Power Query` `WeatherAPI`
-
 </td>
 </tr>
 <tr>
@@ -72,12 +60,6 @@ class AnandKumar:
 **LSTM Deep Learning · NSE Data**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
-
-```
-
-```
-`TensorFlow` `Keras` `yfinance` `Plotly` `NumPy`
-
 </td>
 <td width="50%" valign="top">
 
@@ -86,12 +68,6 @@ class AnandKumar:
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
 [![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
-
-```
-
-```
-`GANs` `NST` `OpenBCI` `SVM` `OpenCV`
-
 </td>
 </tr>
 <tr>
@@ -101,12 +77,6 @@ class AnandKumar:
 **235K+ Records · Excel + Power BI**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/EV-Population-Data-Analysis)
-
-```
-
-```
-`Excel` `Power BI` `Pandas` `Plotly` `Folium`
-
 </td>
 <td width="50%" valign="top">
 
