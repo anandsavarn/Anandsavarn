@@ -1,23 +1,5 @@
-
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@200;300;400;600;700;900&display=swap" rel="stylesheet"/>
-<style>
-*{margin:0;padding:0;box-sizing:border-box;}
-:root{
-  --cyan:#00d9ff;
-  --purple:#a78bfa;
-  --green:#34d399;
-  --amber:#fbbf24;
-  --bg:#020818;
-  --bg2:#060f24;
-  --surface:rgba(0,217,255,0.05);
-  --border:rgba(0,217,255,0.15);
-  --text:#e0f7ff;
-  --muted:rgba(165,243,252,0.5);
-}
-
-
 <div align="center">
-
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@200;300;400;600;700;900&display=swap" rel="stylesheet"/>
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=170&section=header&text=ANAND%20KUMAR&fontSize=78&fontColor=ffffff&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
 
 </div> 
