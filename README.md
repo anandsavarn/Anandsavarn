@@ -51,15 +51,6 @@ class AnandKumar:
 [![Live](https://img.shields.io/badge/LIVE-00C896?style=flat-square)](https://predictor-65n3.onrender.com)
 [![Patent](https://img.shields.io/badge/PATENT_FILED-0A66C2?style=flat-square)]()
 
-```
-┌─────────────────────────────────┐
-│ POWERGRID · ₹308.50  📈        │
-│ AI Trust Score: 87%             │
-│ Prediction: ₹312.4 · 84% conf  │
-│ RSI: 58 · MACD: +1.2           │
-└─────────────────────────────────┘
-```
-`LSTM` `Flask` `React` `MongoDB` `yfinance` `JWT`
 
 </td>
 <td width="50%" valign="top">
@@ -69,15 +60,6 @@ class AnandKumar:
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Weather-Analytics-Dashboard)
 
-```
-┌─────────────────────────────────┐
-│ Amritsar · 14°C · FOG          │
-│ AQI: 132  · PM2.5: 128         │
-│ Rain Risk: HIGH ⚠  · UV: 16.6 │
-│ 7-day forecast · Live API      │
-└─────────────────────────────────┘
-```
-`Power BI` `DAX` `Power Query` `WeatherAPI`
 
 </td>
 </tr>
@@ -89,14 +71,6 @@ class AnandKumar:
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
 
-```
-┌─────────────────────────────────┐
-│ POWERGRID.NS · 4,208 days      │
-│ 4-Layer LSTM · Loss: 0.0021    │
-│ MA100/200 · EMA · RSI · MACD  │
-│ Actual vs Predicted · Plotly   │
-└─────────────────────────────────┘
-```
 `TensorFlow` `Keras` `yfinance` `Plotly` `NumPy`
 
 </td>
@@ -108,16 +82,6 @@ class AnandKumar:
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
 [![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
 
-```
-┌─────────────────────────────────┐
-│ EEG Headset → FFT/ICA          │
-│ Mental State → SVM/DNN         │
-│ GAN + NST → Generative Art     │
-│ Screen · VR · AR · LED Output  │
-└─────────────────────────────────┘
-```
-`GANs` `NST` `OpenBCI` `SVM` `OpenCV`
-
 </td>
 </tr>
 <tr>
@@ -128,14 +92,6 @@ class AnandKumar:
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/EV-Population-Data-Analysis)
 
-```
-┌─────────────────────────────────┐
-│ 235,690 US EV registrations    │
-│ BEV:PHEV = 80:20               │
-│ Chevrolet #1 · 17,135 units    │
-│ 5 Pivots · Interactive slicers │
-└─────────────────────────────────┘
-```
 `Excel` `Power BI` `Pandas` `Plotly` `Folium`
 
 </td>
@@ -146,14 +102,6 @@ class AnandKumar:
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NurtureNest)
 
-```
-┌─────────────────────────────────┐
-│ Daily tips · AlarmManager      │
-│ Milestones · Activity Logger   │
-│ MPAndroidChart · Dark Mode     │
-│ Offline-first · No cloud       │
-└─────────────────────────────────┘
-```
 `Kotlin` `Android SDK` `AlarmManager` `BroadcastReceiver`
 
 </td>
