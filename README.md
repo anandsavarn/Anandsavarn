@@ -321,6 +321,6 @@ class AnandKumar:
 ```
 
 📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
-<img src="https://capsule-render.vercel.app/api?type=waving&color=100:00ff88,50:003300,100:0a0a0a&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:003300,0:0a0a0a&height=120&section=footer" width="100%"/>
 
 </div>
