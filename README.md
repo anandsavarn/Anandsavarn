@@ -323,5 +323,6 @@ class AnandKumar:
 📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00d9ff,50:050520,100:000000&height=130&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=100&section=footer" width="100%"/>
 
 </div>
