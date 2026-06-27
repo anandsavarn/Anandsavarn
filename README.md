@@ -1,354 +1,480 @@
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=170&section=header&text=ANAND%20KUMAR&fontSize=78&fontColor=ffffff&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Anand Kumar — 3D AI Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@200;300;400;600;700;900&display=swap" rel="stylesheet"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --cyan:#00d9ff;--purple:#a78bfa;--green:#34d399;--amber:#fbbf24;
+  --bg:#020818;--surface:rgba(0,217,255,0.05);--border:rgba(0,217,255,0.14);
+  --text:#e0f7ff;--muted:rgba(165,243,252,0.5);
+}
+html,body{width:100%;min-height:100vh;background:var(--bg);font-family:'Inter',sans-serif;color:var(--text);overflow-x:hidden;}
+#neural-canvas{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;}
+.grid-bg{position:fixed;inset:0;z-index:1;pointer-events:none;
+  background-image:linear-gradient(rgba(0,180,255,0.032) 1px,transparent 1px),linear-gradient(90deg,rgba(0,180,255,0.032) 1px,transparent 1px);
+  background-size:48px 48px;}
+.scanline{position:fixed;inset:0;pointer-events:none;z-index:2;
+  background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,217,255,0.01) 2px,rgba(0,217,255,0.01) 4px);}
+.wrap{position:relative;z-index:10;max-width:980px;margin:0 auto;padding:28px 22px 48px;}
+
+/* HUD */
+.hud{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;padding:0 2px;}
+.hud-id{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--cyan);letter-spacing:.16em;opacity:.65;}
+.hud-right{display:flex;align-items:center;gap:8px;}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--green);animation:blink 2s infinite;}
+@keyframes blink{0%,100%{opacity:1;box-shadow:0 0 6px var(--green)}50%{opacity:.25;box-shadow:none}}
+.hud-txt{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--green);letter-spacing:.12em;}
+
+/* HERO */
+.hero{position:relative;background:rgba(2,8,24,0.88);border:1px solid var(--border);border-radius:16px;padding:36px 40px 32px;margin-bottom:18px;overflow:hidden;backdrop-filter:blur(10px);}
+.hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 55% 90% at 82% 50%,rgba(0,217,255,0.065) 0%,transparent 70%);pointer-events:none;}
+.cm{position:absolute;width:18px;height:18px;border-color:rgba(0,217,255,.5);border-style:solid;border-width:0;}
+.cm.tl{top:11px;left:11px;border-top-width:1.5px;border-left-width:1.5px;}
+.cm.tr{top:11px;right:11px;border-top-width:1.5px;border-right-width:1.5px;}
+.cm.bl{bottom:11px;left:11px;border-bottom-width:1.5px;border-left-width:1.5px;}
+.cm.br{bottom:11px;right:11px;border-bottom-width:1.5px;border-right-width:1.5px;}
+.hero-inner{display:flex;align-items:center;gap:36px;position:relative;z-index:1;}
+.hero-txt{flex:1;}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--cyan);letter-spacing:.2em;margin-bottom:14px;opacity:.85;}
+.hname{font-size:clamp(34px,5.5vw,60px);font-weight:900;line-height:1;letter-spacing:-2px;background:linear-gradient(125deg,#fff 10%,#a5f3fc 55%,var(--cyan) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hrole{font-size:13px;color:var(--muted);font-weight:300;margin-top:10px;letter-spacing:.04em;}
+.hrole strong{color:rgba(165,243,252,.75);font-weight:400;}
+.hdiv{width:52px;height:2px;background:linear-gradient(90deg,var(--cyan),transparent);border-radius:1px;margin:18px 0;}
+.hdesc{font-size:12px;color:var(--muted);line-height:1.75;max-width:400px;}
+.hdesc em{color:var(--cyan);font-style:normal;}
+.badges{display:flex;gap:7px;flex-wrap:wrap;margin-top:18px;}
+.bdg{font-family:'JetBrains Mono',monospace;font-size:9px;padding:3px 10px;border-radius:4px;border:1px solid;letter-spacing:.07em;font-weight:600;}
+.bc{color:var(--cyan);border-color:rgba(0,217,255,.3);background:rgba(0,217,255,.07);}
+.bp{color:var(--purple);border-color:rgba(167,139,250,.3);background:rgba(167,139,250,.07);}
+.bg2{color:var(--green);border-color:rgba(52,211,153,.3);background:rgba(52,211,153,.07);}
+.ba{color:var(--amber);border-color:rgba(251,191,36,.3);background:rgba(251,191,36,.07);}
+
+/* ORB */
+.orb-wrap{position:relative;width:170px;height:170px;flex-shrink:0;}
+.orb-ring{position:absolute;inset:0;border-radius:50%;border:1px solid;animation:pr 3s ease-out infinite;}
+.orb-ring:nth-child(1){border-color:rgba(0,217,255,.55);}
+.orb-ring:nth-child(2){border-color:rgba(0,217,255,.28);animation-delay:.85s;}
+.orb-ring:nth-child(3){border-color:rgba(0,217,255,.12);animation-delay:1.7s;}
+@keyframes pr{0%{transform:scale(.28);opacity:.9}100%{transform:scale(1);opacity:0}}
+.orb-core{position:absolute;inset:26%;border-radius:50%;background:radial-gradient(circle,rgba(0,217,255,.18),rgba(6,15,36,.9));border:1px solid rgba(0,217,255,.38);display:flex;align-items:center;justify-content:center;}
+.orb-core svg{width:48px;height:48px;animation:flt 4s ease-in-out infinite;}
+@keyframes flt{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+
+/* STAT CARDS */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-bottom:18px;}
+.sc{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:15px 18px;position:relative;overflow:hidden;transition:border-color .2s;}
+.sc:hover{border-color:rgba(0,217,255,.38);}
+.sc::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;border-radius:0 0 10px 10px;}
+.sc.s1::after{background:linear-gradient(90deg,var(--cyan),transparent);}
+.sc.s2::after{background:linear-gradient(90deg,var(--purple),transparent);}
+.sc.s3::after{background:linear-gradient(90deg,var(--green),transparent);}
+.sc.s4::after{background:linear-gradient(90deg,var(--amber),transparent);}
+.sv{font-family:'JetBrains Mono',monospace;font-size:26px;font-weight:700;display:block;line-height:1;}
+.sc.s1 .sv{color:var(--cyan)}.sc.s2 .sv{color:var(--purple)}.sc.s3 .sv{color:var(--green)}.sc.s4 .sv{color:var(--amber)}
+.sl{font-size:9px;color:var(--muted);letter-spacing:.1em;margin-top:5px;display:block;font-family:'JetBrains Mono',monospace;}
+.ss{font-size:9px;color:rgba(165,243,252,.35);margin-top:2px;display:block;}
+
+/* TICKER */
+.ticker-bar{background:rgba(0,217,255,.04);border:1px solid var(--border);border-radius:8px;padding:9px 14px;display:flex;align-items:center;gap:10px;overflow:hidden;margin-bottom:16px;}
+.tl{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--cyan);letter-spacing:.14em;flex-shrink:0;border-right:1px solid var(--border);padding-right:10px;}
+.tt{overflow:hidden;flex:1;}
+.ti{display:flex;gap:44px;animation:tick 20s linear infinite;white-space:nowrap;}
+.ti span{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);letter-spacing:.06em;flex-shrink:0;}
+.ti span em{color:var(--cyan);font-style:normal;margin-left:4px;}
+@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* TWO COL */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+.panel{background:rgba(2,8,24,.82);border:1px solid var(--border);border-radius:12px;padding:18px 20px;backdrop-filter:blur(6px);}
+.ptitle{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--cyan);letter-spacing:.14em;margin-bottom:14px;display:flex;align-items:center;gap:7px;}
+.ptitle::before{content:'';width:4px;height:4px;border-radius:50%;background:var(--cyan);flex-shrink:0;}
+
+/* SKILLS */
+.skill-row{display:flex;flex-direction:column;gap:9px;}
+.ski{display:flex;flex-direction:column;gap:4px;}
+.skh{display:flex;justify-content:space-between;}
+.skn{font-size:11px;color:rgba(165,243,252,.65);font-family:'JetBrains Mono',monospace;}
+.skp{font-size:10px;font-family:'JetBrains Mono',monospace;font-weight:600;}
+.bar-track{height:3px;background:rgba(0,217,255,.09);border-radius:2px;overflow:hidden;}
+.bar-fill{height:100%;border-radius:2px;width:0;transition:width 1.3s cubic-bezier(.4,0,.2,1);}
+
+/* ACTIVITY */
+.bar-chart{display:flex;align-items:flex-end;gap:4px;height:76px;margin-top:4px;}
+.bcol{display:flex;flex-direction:column;align-items:center;gap:3px;flex:1;}
+.bvis{width:100%;border-radius:2px 2px 0 0;min-height:3px;opacity:.8;}
+.bmo{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--muted);}
+
+/* TECH TAGS */
+.tech-grid{display:flex;flex-wrap:wrap;gap:5px;}
+.tt2{font-family:'JetBrains Mono',monospace;font-size:9px;padding:4px 9px;border-radius:4px;border:1px solid;letter-spacing:.04em;cursor:default;transition:transform .2s;}
+.tt2:hover{transform:translateY(-2px);}
+.tp{color:var(--cyan);border-color:rgba(0,217,255,.22);background:rgba(0,217,255,.05);}
+.tm{color:var(--purple);border-color:rgba(167,139,250,.22);background:rgba(167,139,250,.05);}
+.td{color:var(--green);border-color:rgba(52,211,153,.22);background:rgba(52,211,153,.05);}
+.tc{color:var(--amber);border-color:rgba(251,191,36,.22);background:rgba(251,191,36,.05);}
+
+/* PROJECTS */
+.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;margin-bottom:14px;}
+.pc{background:rgba(2,8,24,.88);border:1px solid var(--border);border-radius:10px;padding:16px;transition:all .2s;position:relative;overflow:hidden;}
+.pc:hover{border-color:rgba(0,217,255,.38);transform:translateY(-2px);}
+.pc::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;}
+.pc.p1::before{background:linear-gradient(90deg,var(--cyan),transparent);}
+.pc.p2::before{background:linear-gradient(90deg,var(--purple),transparent);}
+.pc.p3::before{background:linear-gradient(90deg,var(--green),transparent);}
+.pc.p4::before{background:linear-gradient(90deg,var(--amber),transparent);}
+.pc.p5::before{background:linear-gradient(90deg,var(--cyan),transparent);}
+.pc.p6::before{background:linear-gradient(90deg,var(--purple),transparent);}
+.pn{font-size:12px;font-weight:600;color:#fff;margin-bottom:5px;}
+.pd{font-size:10px;color:var(--muted);line-height:1.55;margin-bottom:8px;}
+.ptags{display:flex;gap:4px;flex-wrap:wrap;}
+.ptag{font-family:'JetBrains Mono',monospace;font-size:8px;padding:2px 6px;border-radius:3px;background:rgba(0,217,255,.06);color:rgba(165,243,252,.55);border:1px solid rgba(0,217,255,.11);}
+
+/* CONNECT ROW */
+.connect{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;margin-bottom:20px;}
+.cbtn{font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;padding:9px 18px;border-radius:7px;text-decoration:none;letter-spacing:.07em;transition:all .2s;display:inline-flex;align-items:center;gap:6px;border:1px solid;}
+.cprimary{background:var(--cyan);color:#020818;border-color:var(--cyan);}
+.cprimary:hover{background:#38e8ff;box-shadow:0 0 18px rgba(0,217,255,.35);}
+.cghost{background:transparent;color:var(--cyan);border-color:rgba(0,217,255,.38);}
+.cghost:hover{background:rgba(0,217,255,.08);}
+.cpurp{background:transparent;color:var(--purple);border-color:rgba(167,139,250,.38);}
+.cpurp:hover{background:rgba(167,139,250,.08);}
+.cgreen{background:transparent;color:var(--green);border-color:rgba(52,211,153,.38);}
+.cgreen:hover{background:rgba(52,211,153,.08);}
+
+/* FOOTER */
+.footer{text-align:center;padding-top:10px;border-top:1px solid var(--border);}
+.footer p{font-family:'JetBrains Mono',monospace;font-size:10px;color:rgba(165,243,252,.3);letter-spacing:.1em;}
+.footer p em{color:var(--cyan);font-style:normal;}
+
+/* SECTION DIVIDER */
+.sdiv{height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin:16px 0;}
+
+@media(max-width:740px){
+  .stats{grid-template-columns:repeat(2,1fr);}
+  .two-col,.proj-grid{grid-template-columns:1fr;}
+  .hero-inner{flex-direction:column;}
+  .orb-wrap{width:120px;height:120px;}
+  .hname{font-size:32px;}
+}
+</style>
+</head>
+<body>
+
+<canvas id="neural-canvas"></canvas>
+<div class="grid-bg"></div>
+<div class="scanline"></div>
+
+<div class="wrap">
+
+  <!-- HUD -->
+  <div class="hud">
+    <span class="hud-id">ANAND_KUMAR.SYS // CSE_DATA_SCIENCE // LPU // v3.0</span>
+    <div class="hud-right">
+      <div class="dot"></div>
+      <span class="hud-txt">AVAILABLE FOR HIRE</span>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="cm tl"></div><div class="cm tr"></div>
+    <div class="cm bl"></div><div class="cm br"></div>
+    <div class="hero-inner">
+      <div class="hero-txt">
+        <div class="eyebrow">// PROFILE.init() · DATA_SCIENCE · ML_ENGINEERING · FINTECH_AI</div>
+        <h1 class="hname">ANAND KUMAR</h1>
+        <p class="hrole">B.Tech Computer Science (Data Science) · <strong>Lovely Professional University</strong></p>
+        <div class="hdiv"></div>
+        <p class="hdesc">
+          Building <em>Predictor.com</em> — live AI stock analytics platform.<br/>
+          Patents: <em>NeuroLoom</em> (PCT) · <em>Predictor.com</em> (Provisional).<br/>
+          Open to <em>Data Analyst · ML Engineer · BI Analyst</em> roles.
+        </p>
+        <div class="badges">
+          <span class="bdg bc">◈ PYTHON</span>
+          <span class="bdg bp">◈ TENSORFLOW</span>
+          <span class="bdg bg2">◈ FINTECH AI</span>
+          <span class="bdg ba">◈ 2 PATENTS</span>
+        </div>
+      </div>
+      <div class="orb-wrap">
+        <div class="orb-ring"></div>
+        <div class="orb-ring"></div>
+        <div class="orb-ring"></div>
+        <div class="orb-core">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="32" cy="32" r="28" fill="rgba(0,217,255,0.05)" stroke="rgba(0,217,255,0.22)" stroke-width="1"/>
+            <path d="M20 30c0-5 3.5-9 8-9 1.5 0 3 .4 4 1" stroke="#00d9ff" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M44 30c0-5-3.5-9-8-9-1.5 0-3 .4-4 1" stroke="#00d9ff" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M20 30c-3.5 0-6 2.5-6 6s2.5 6 6 6" stroke="#00d9ff" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M44 30c3.5 0 6 2.5 6 6s-2.5 6-6 6" stroke="#00d9ff" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M20 42c0 4.5 3.5 8 8 8h8c4.5 0 8-3.5 8-8" stroke="#00d9ff" stroke-width="1.4" stroke-linecap="round"/>
+            <line x1="32" y1="21" x2="32" y2="50" stroke="#a78bfa" stroke-width=".9" stroke-dasharray="2 2"/>
+            <circle cx="32" cy="32" r="4" fill="rgba(0,217,255,.88)"/>
+            <circle cx="23" cy="30" r="2" fill="#a78bfa" opacity=".8"/>
+            <circle cx="41" cy="30" r="2" fill="#a78bfa" opacity=".8"/>
+            <circle cx="23" cy="38" r="2" fill="#34d399" opacity=".8"/>
+            <circle cx="41" cy="38" r="2" fill="#34d399" opacity=".8"/>
+            <line x1="25" y1="30" x2="30" y2="32" stroke="rgba(167,139,250,.4)" stroke-width=".7"/>
+            <line x1="39" y1="30" x2="34" y2="32" stroke="rgba(167,139,250,.4)" stroke-width=".7"/>
+            <line x1="25" y1="38" x2="30" y2="32" stroke="rgba(52,211,153,.4)" stroke-width=".7"/>
+            <line x1="39" y1="38" x2="34" y2="32" stroke="rgba(52,211,153,.4)" stroke-width=".7"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="sc s1">
+      <span class="sv" data-target="12" data-suffix="">0</span>
+      <span class="sl">PROJECTS BUILT</span>
+      <span class="ss">End-to-end pipelines</span>
+    </div>
+    <div class="sc s2">
+      <span class="sv" data-target="20" data-suffix="+">0+</span>
+      <span class="sl">ML MODELS</span>
+      <span class="ss">Trained & deployed</span>
+    </div>
+    <div class="sc s3">
+      <span class="sv" style="font-size:18px;padding-top:4px;">2 PATENTS</span>
+      <span class="sl">FILED</span>
+      <span class="ss">PCT + Provisional</span>
+    </div>
+    <div class="sc s4">
+      <span class="sv" style="font-size:18px;padding-top:4px;">94.7%</span>
+      <span class="sl">MODEL ACCURACY</span>
+      <span class="ss">Best performing</span>
+    </div>
+  </div>
+
+  <!-- TICKER -->
+  <div class="ticker-bar">
+    <span class="tl">LIVE METRICS</span>
+    <div class="tt">
+      <div class="ti">
+        <span>PREDICTOR.COM<em>● LIVE</em></span>
+        <span>TRAINING_LOSS<em>0.0021</em></span>
+        <span>MODEL_ACCURACY<em>94.7%</em></span>
+        <span>NEUROLOOM<em>PCT PENDING</em></span>
+        <span>OPEN_TO_ROLES<em>TRUE</em></span>
+        <span>FINTECH_AI<em>ACTIVE</em></span>
+        <span>LPU_CSE<em>DATA SCIENCE</em></span>
+        <span>STATUS<em>AVAILABLE</em></span>
+        <!-- duplicate -->
+        <span>PREDICTOR.COM<em>● LIVE</em></span>
+        <span>TRAINING_LOSS<em>0.0021</em></span>
+        <span>MODEL_ACCURACY<em>94.7%</em></span>
+        <span>NEUROLOOM<em>PCT PENDING</em></span>
+        <span>OPEN_TO_ROLES<em>TRUE</em></span>
+        <span>FINTECH_AI<em>ACTIVE</em></span>
+        <span>LPU_CSE<em>DATA SCIENCE</em></span>
+        <span>STATUS<em>AVAILABLE</em></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS + ACTIVITY -->
+  <div class="two-col">
+    <div class="panel">
+      <div class="ptitle">SKILL PROFICIENCY</div>
+      <div class="skill-row">
+        <div class="ski">
+          <div class="skh"><span class="skn">Python / Pandas / NumPy</span><span class="skp" style="color:var(--cyan)">95%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="95" style="background:var(--cyan)"></div></div>
+        </div>
+        <div class="ski">
+          <div class="skh"><span class="skn">TensorFlow / Keras / LSTM</span><span class="skp" style="color:var(--purple)">88%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="88" style="background:var(--purple)"></div></div>
+        </div>
+        <div class="ski">
+          <div class="skh"><span class="skn">SQL / MySQL / PostgreSQL</span><span class="skp" style="color:var(--green)">92%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="92" style="background:var(--green)"></div></div>
+        </div>
+        <div class="ski">
+          <div class="skh"><span class="skn">Power BI / DAX / Tableau</span><span class="skp" style="color:var(--amber)">87%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="87" style="background:var(--amber)"></div></div>
+        </div>
+        <div class="ski">
+          <div class="skh"><span class="skn">Flask / React / MongoDB</span><span class="skp" style="color:var(--cyan)">82%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="82" style="background:var(--cyan)"></div></div>
+        </div>
+        <div class="ski">
+          <div class="skh"><span class="skn">Scikit-learn / XGBoost / GANs</span><span class="skp" style="color:var(--purple)">85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="85" style="background:var(--purple)"></div></div>
+        </div>
+        <div class="ski">
+          <div class="skh"><span class="skn">Kotlin / Android SDK</span><span class="skp" style="color:var(--green)">75%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-pct="75" style="background:var(--green)"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="ptitle">GITHUB COMMIT ACTIVITY</div>
+      <div class="bar-chart" id="activity-chart"></div>
+      <div class="sdiv" style="margin:12px 0;"></div>
+      <div class="ptitle" style="margin-bottom:10px;">TECH STACK</div>
+      <div class="tech-grid">
+        <span class="tt2 tp">Python</span>
+        <span class="tt2 tm">TensorFlow</span>
+        <span class="tt2 tm">Keras</span>
+        <span class="tt2 tp">Scikit-learn</span>
+        <span class="tt2 td">SQL</span>
+        <span class="tt2 td">Power BI</span>
+        <span class="tt2 td">DAX</span>
+        <span class="tt2 tc">AWS</span>
+        <span class="tt2 tp">Flask</span>
+        <span class="tt2 tp">React</span>
+        <span class="tt2 tc">Docker</span>
+        <span class="tt2 tm">XGBoost</span>
+        <span class="tt2 td">Pandas</span>
+        <span class="tt2 tp">NumPy</span>
+        <span class="tt2 tm">GANs / NST</span>
+        <span class="tt2 td">Kotlin</span>
+        <span class="tt2 tc">MongoDB</span>
+        <span class="tt2 tp">Plotly</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="ptitle" style="margin-bottom:10px;padding-left:2px;">PROJECT SHOWCASE</div>
+  <div class="proj-grid">
+    <div class="pc p1">
+      <div class="pn">📈 Predictor.com</div>
+      <div class="pd">Live AI stock analytics — LSTM predictions on NSE/BSE. AI Trust Score, RSI, MACD. Patent filed.</div>
+      <div class="ptags"><span class="ptag">LSTM</span><span class="ptag">Flask</span><span class="ptag">React</span><span class="ptag">MongoDB</span><span class="ptag">JWT</span></div>
+    </div>
+    <div class="pc p2">
+      <div class="pn">🧠 NeuroLoom</div>
+      <div class="pd">EEG → Generative Art AI. FFT/ICA signal processing, SVM/DNN, GAN + NST output. PCT recommended.</div>
+      <div class="ptags"><span class="ptag">GANs</span><span class="ptag">NST</span><span class="ptag">OpenBCI</span><span class="ptag">SVM</span><span class="ptag">OpenCV</span></div>
+    </div>
+    <div class="pc p3">
+      <div class="pn">⚡ Trading Signal Engine</div>
+      <div class="pd">4-layer LSTM on 4,208 days of NSE data. MA100/200, EMA, RSI, MACD. Loss: 0.0021.</div>
+      <div class="ptags"><span class="ptag">TensorFlow</span><span class="ptag">yfinance</span><span class="ptag">Plotly</span><span class="ptag">NumPy</span></div>
+    </div>
+    <div class="pc p4">
+      <div class="pn">🌦 Weather Intelligence</div>
+      <div class="pd">Real-time forecast analytics dashboard. AQI, PM2.5, rain risk, UV index via live REST API.</div>
+      <div class="ptags"><span class="ptag">Power BI</span><span class="ptag">DAX</span><span class="ptag">Power Query</span><span class="ptag">WeatherAPI</span></div>
+    </div>
+    <div class="pc p5">
+      <div class="pn">🔋 EV Population Analysis</div>
+      <div class="pd">235,690 US EV registrations. BEV:PHEV 80:20. 5 pivot tables, interactive Power BI slicers.</div>
+      <div class="ptags"><span class="ptag">Excel</span><span class="ptag">Power BI</span><span class="ptag">Pandas</span><span class="ptag">Folium</span></div>
+    </div>
+    <div class="pc p6">
+      <div class="pn">👶 NurtureNest</div>
+      <div class="pd">Smart parenting Android app. Milestones, daily tips, activity logger. Offline-first, dark mode.</div>
+      <div class="ptags"><span class="ptag">Kotlin</span><span class="ptag">Android SDK</span><span class="ptag">AlarmManager</span></div>
+    </div>
+  </div>
+
+  <!-- CONNECT -->
+  <div class="connect">
+    <a class="cbtn cprimary" href="https://github.com/Anandsavarn">⟨/⟩ GitHub</a>
+    <a class="cbtn cghost" href="https://anandsavarn.vercel.app">🌐 Portfolio</a>
+    <a class="cbtn cpurp" href="https://www.linkedin.com/in/anandsavarn/">💼 LinkedIn</a>
+    <a class="cbtn cgreen" href="https://predictor-65n3.onrender.com">📈 Predictor.com</a>
+    <a class="cbtn cghost" href="mailto:anandsavarn@gmail.com">📡 Email</a>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>"Consistency beats talent when talent doesn't work hard." &nbsp;·&nbsp; <em>anandsavarn@gmail.com</em></p>
+  </div>
+
 </div>
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=+B.Tech+Computer+Science+Engineer+(Data+Science)+from+Lovely+Professional+University;+Building+Predictor.com+—+Live+AI+Stock+Analytics+Platform;+Turning+Raw+Data+into+Deployable+Intelligence;+Open+to+Data+Analyst+·+ML+Engineer+·+BI+Analyst+Roles)](https://github.com/Anandsavarn)
-
-<br/>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=flat-square)](https://github.com/Anandsavarn)
-&nbsp;`·`&nbsp;
-[![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-anandsavarn.vercel.app-00d9ff?style=flat-square&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
-&nbsp;`·`&nbsp;
-[![Followers](https://img.shields.io/github/followers/anandsavarn?style=flat-square&color=00d9ff&label=FOLLOWERS&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
-&nbsp;`·`&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
-
-</div>
-
----
-
-## ◈ 3D AI DASHBOARD
-
-<!-- ═══════════════════════════════════════════════════════════════════
-     STEP 1 → Deploy `dashboard/index.html` to GitHub Pages
-     STEP 2 → Replace YOUR_USERNAME below with: anandsavarn
-     STEP 3 → Replace YOUR_REPO below with your repo name (e.g. anandsavarn)
-     Live URL will be: https://anandsavarn.github.io/anandsavarn/dashboard/
-     ═══════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-<!-- OPTION A: Live embedded iframe (works on portfolio sites, not on github.com) -->
-<!--
-<iframe src="https://anandsavarn.github.io/anandsavarn/dashboard/" 
-  width="960" height="600" frameborder="0" 
-  style="border-radius:16px;border:1px solid #00d9ff22;">
-</iframe>
--->
-
-<!-- OPTION B: Clickable preview badge → opens the live dashboard -->
-[![3D AI Dashboard — Click to View Live](https://img.shields.io/badge/◈_3D_AI_DASHBOARD-Click_to_View_Live-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=020818)](https://anandsavarn.github.io/anandsavarn/dashboard/)
-
-<!-- OPTION C: After recording a GIF of your dashboard, upload it and uncomment: -->
-<!-- <img src="./dashboard/preview.gif" width="100%" style="border-radius:12px"/> -->
-
-</div>
-
----
-
-## ◈ SYSTEM PROFILE
-
-```python
-class AnandKumar:
-    degree   = "B.Tech CSE (Data Science) — Lovely Professional University, Punjab"
-    roles    = ["Data Analyst", "ML Engineer", "Data Engineer", "BI Analyst"]
-    flagship = "Predictor.com — AI-Powered Stock Market Analytics  [LIVE]"
-    patents  = ["NeuroLoom — EEG→Art AI  [PCT Recommended]",
-                "Predictor.com — FinTech AI Platform  [Provisional Filed]"]
-    stack    = ["Python", "TensorFlow", "Flask", "React", "Power BI", "Kotlin"]
-    contact  = "anandsavarn@gmail.com"
-    status   = "🟢 Open to Opportunities"
-```
-
----
-
-## ◈ CURRENT MISSION
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**`// BUILDING`**
-```
-▸ Predictor.com          [LIVE]
-  LSTM · Flask · React · NSE/BSE
-
-▸ NeuroLoom              [PATENT]
-  EEG → GAN Generative Art AI
-
-▸ Weather Intelligence   [BI]
-  Power BI · DAX · REST API
-
-▸ Trading Signal Engine  [ML]
-  RSI · MACD · LSTM · Backtest
-```
-
-</td>
-<td width="50%" valign="top">
-
-**`// STRENGTHS`**
-```
-▸ End-to-end ML pipelines
-  raw data → deployed model
-
-▸ Power BI dashboards
-  DAX · KPI design · live data
-
-▸ Full-stack data products
-  idea → build → ship → iterate
-
-▸ Financial analytics
-  OHLCV · indicators · LSTM
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## ◈ PROJECT SHOWCASE
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ PREDICTOR.COM
-**AI Trading Intelligence Platform**
-
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Predictor.com)
-[![Live](https://img.shields.io/badge/LIVE-00C896?style=flat-square)](https://predictor-65n3.onrender.com)
-[![Patent](https://img.shields.io/badge/PATENT_FILED-0A66C2?style=flat-square)]()
-
-```
-┌─────────────────────────────────┐
-│ POWERGRID · ₹308.50  📈        │
-│ AI Trust Score: 87%             │
-│ Prediction: ₹312.4 · 84% conf  │
-│ RSI: 58 · MACD: +1.2           │
-└─────────────────────────────────┘
-```
-`LSTM` `Flask` `React` `MongoDB` `yfinance` `JWT`
-
-</td>
-<td width="50%" valign="top">
-
-### ⬡ WEATHER INTELLIGENCE
-**Real-Time Forecast Analytics**
-
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Weather-Analytics-Dashboard)
-
-```
-┌─────────────────────────────────┐
-│ Amritsar · 14°C · FOG          │
-│ AQI: 132  · PM2.5: 128         │
-│ Rain Risk: HIGH ⚠  · UV: 16.6 │
-│ 7-day forecast · Live API      │
-└─────────────────────────────────┘
-```
-`Power BI` `DAX` `Power Query` `WeatherAPI`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ TRADING SIGNAL ENGINE
-**LSTM Deep Learning · NSE Data**
-
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
-
-```
-┌─────────────────────────────────┐
-│ POWERGRID.NS · 4,208 days      │
-│ 4-Layer LSTM · Loss: 0.0021    │
-│ MA100/200 · EMA · RSI · MACD  │
-│ Actual vs Predicted · Plotly   │
-└─────────────────────────────────┘
-```
-`TensorFlow` `Keras` `yfinance` `Plotly` `NumPy`
-
-</td>
-<td width="50%" valign="top">
-
-### ⬡ NEUROLOOM
-**EEG → Generative Art AI** *(Patent)*
-
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
-[![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
-
-```
-┌─────────────────────────────────┐
-│ EEG Headset → FFT/ICA          │
-│ Mental State → SVM/DNN         │
-│ GAN + NST → Generative Art     │
-│ Screen · VR · AR · LED Output  │
-└─────────────────────────────────┘
-```
-`GANs` `NST` `OpenBCI` `SVM` `OpenCV`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ EV POPULATION ANALYSIS
-**235K+ Records · Excel + Power BI**
-
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/EV-Population-Data-Analysis)
-
-```
-┌─────────────────────────────────┐
-│ 235,690 US EV registrations    │
-│ BEV:PHEV = 80:20               │
-│ Chevrolet #1 · 17,135 units    │
-│ 5 Pivots · Interactive slicers │
-└─────────────────────────────────┘
-```
-`Excel` `Power BI` `Pandas` `Plotly` `Folium`
-
-</td>
-<td width="50%" valign="top">
-
-### ⬡ NURTURENEST
-**Smart Parenting Android App**
-
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NurtureNest)
-
-```
-┌─────────────────────────────────┐
-│ Daily tips · AlarmManager      │
-│ Milestones · Activity Logger   │
-│ MPAndroidChart · Dark Mode     │
-│ Offline-first · No cloud       │
-└─────────────────────────────────┘
-```
-`Kotlin` `Android SDK` `AlarmManager` `BroadcastReceiver`
-
-</td>
-</tr>
-</table>
-
----
-
-## ◈ TECH STACK
-
-<div align="center">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-
-**AI / ML**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white)
-
-**Business Intelligence**
-
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power%20Query-742774?style=flat-square&logo=microsoft&logoColor=white)
-
-**Web & Backend**
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-**Databases**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=flat-square&logo=androidstudio&logoColor=white)
-
-</div>
-
----
-
-## ◈ GITHUB STATS
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&cache_seconds=1800"/>
-&nbsp;
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&cache_seconds=1800"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff&sideLabels=00d9ff"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&hide_border=true&area=true&area_color=00d9ff"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=anandsavarn&theme=algolia&margin-w=12&margin-h=12&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4"/>
-
-</div>
-
----
-
-## ◈ CONNECT
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-00d9ff?style=flat-square&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
-[![Kaggle](https://img.shields.io/badge/KAGGLE-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/anandsavarn)
-[![LeetCode](https://img.shields.io/badge/LEETCODE-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/anandsavarn/)
-[![HackerRank](https://img.shields.io/badge/HACKERRANK-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/anandsavarn)
-[![Stack Overflow](https://img.shields.io/badge/STACK_OVERFLOW-F58025?style=flat-square&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/23034645/anand-kumar)
-[![GeeksforGeeks](https://img.shields.io/badge/GFG-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/anandswqmi/)
-[![CodeChef](https://img.shields.io/badge/CODECHEF-5B4638?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/anand_savarn)
-[![HackerEarth](https://img.shields.io/badge/HACKEREARTH-2C3454?style=flat-square&logo=hackerearth&logoColor=white)](https://www.hackerearth.com/@anandsavarn/)
-[![YouTube](https://img.shields.io/badge/YOUTUBE-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@anandsavarn1)
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/anand_savarn/)
-
-</div>
-
----
-
-<div align="center">
-
-```
-"Consistency beats talent when talent doesn't work hard."
-```
-
-📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00d9ff,50:050520,100:000000&height=130&section=footer" width="100%"/>
-
-</div>
+<script>
+/* ── NEURAL CANVAS ── */
+(function(){
+  const cv=document.getElementById('neural-canvas');
+  const cx=cv.getContext('2d');
+  let W,H,ns=[];
+  function resize(){W=cv.width=innerWidth;H=cv.height=innerHeight;}
+  function mkN(){
+    ns=[];
+    const n=Math.min(Math.floor((W*H)/13000),100);
+    for(let i=0;i<n;i++) ns.push({
+      x:Math.random()*W,y:Math.random()*H,
+      vx:(Math.random()-.5)*.32,vy:(Math.random()-.5)*.32,
+      r:Math.random()*1.6+.7,
+      t:['hl','dim','nrm'][Math.floor(Math.random()*3)]
+    });
+  }
+  function draw(){
+    cx.clearRect(0,0,W,H);
+    for(let i=0;i<ns.length;i++){
+      for(let j=i+1;j<ns.length;j++){
+        const dx=ns[i].x-ns[j].x,dy=ns[i].y-ns[j].y,d=Math.hypot(dx,dy);
+        if(d<125){
+          cx.beginPath();
+          cx.strokeStyle=`rgba(0,217,255,${(1-d/125)*.22})`;
+          cx.lineWidth=.5;
+          cx.moveTo(ns[i].x,ns[i].y);cx.lineTo(ns[j].x,ns[j].y);cx.stroke();
+        }
+      }
+    }
+    ns.forEach(n=>{
+      n.x+=n.vx;n.y+=n.vy;
+      if(n.x<0||n.x>W)n.vx*=-1;if(n.y<0||n.y>H)n.vy*=-1;
+      cx.beginPath();
+      cx.fillStyle=n.t==='hl'?'rgba(0,217,255,.82)':n.t==='dim'?'rgba(167,139,250,.52)':'rgba(52,211,153,.42)';
+      if(n.t==='hl'){cx.shadowBlur=7;cx.shadowColor='#00d9ff';}else cx.shadowBlur=0;
+      cx.arc(n.x,n.y,n.r,0,Math.PI*2);cx.fill();cx.shadowBlur=0;
+    });
+    requestAnimationFrame(draw);
+  }
+  addEventListener('resize',()=>{resize();mkN();});
+  resize();mkN();draw();
+})();
+
+/* ── COUNTERS ── */
+document.querySelectorAll('.sv[data-target]').forEach(el=>{
+  const t=+el.dataset.target,s=el.dataset.suffix||'';
+  let st=null;
+  (function step(ts){
+    if(!st)st=ts;
+    const p=Math.min((ts-st)/1400,1);
+    el.textContent=Math.floor(p*t)+s;
+    if(p<1)requestAnimationFrame(step);
+  })(performance.now());
+});
+
+/* ── SKILL BARS ── */
+setTimeout(()=>document.querySelectorAll('.bar-fill[data-pct]').forEach(el=>{el.style.width=el.dataset.pct+'%';}),250);
+
+/* ── ACTIVITY CHART ── */
+(function(){
+  const months=['J','F','M','A','M','J','J','A','S','O','N','D'];
+  const vals=[22,18,34,28,41,37,52,45,61,48,55,67];
+  const colors=['var(--cyan)','var(--purple)','var(--green)','var(--amber)'];
+  const max=Math.max(...vals);
+  const chart=document.getElementById('activity-chart');
+  vals.forEach((v,i)=>{
+    const pct=Math.round((v/max)*100);
+    const col=document.createElement('div');
+    col.className='bcol';
+    const bar=document.createElement('div');
+    bar.className='bvis';
+    bar.style.cssText=`height:0;background:${colors[i%colors.length]};transition:height .7s ease ${i*45}ms;`;
+    bar.dataset.h=pct+'%';
+    const mo=document.createElement('span');
+    mo.className='bmo';mo.textContent=months[i];
+    col.appendChild(bar);col.appendChild(mo);
+    chart.appendChild(col);
+  });
+  setTimeout(()=>chart.querySelectorAll('.bvis').forEach(b=>{b.style.height=b.dataset.h;}),350);
+})();
+</script>
+</body>
+</html>
