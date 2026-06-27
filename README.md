@@ -51,7 +51,7 @@ class AnandKumar:
 
 ▸ NeuroLoom              [PATENT]
   EEG → GAN Generative Art AI
-
+ 
 ▸ Weather Intelligence   [BI]
   Power BI · DAX · REST API
 
