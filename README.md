@@ -286,17 +286,6 @@ class AnandKumar:
 
 </div>
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=anandsavarn&theme=algolia&margin-w=12&margin-h=12&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4"/>
-
-</div>
-<div align="center">
-
-[![An Hoang Trophies](https://github-profile-trophy.vercel.app/?username=anandsavarn&theme=matrix&margin-w=10&margin-h=10&no-bg=true&no-frame=true&column=4)](https://github.com/Anandsavran)
-
-</div>
-
 ---
 
 ## ◈ CONNECT
