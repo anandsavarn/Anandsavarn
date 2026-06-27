@@ -72,9 +72,11 @@ class AnandKumar:
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
 </td>
 <td width="50%" valign="top">
-### ⬡ NEUROLOOM
-**EEG → Generative Art AI** *(Patent)*
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
+
+### ⬡ TRADING SIGNAL ENGINE
+**LSTM Deep Learning · NSE Data**
+
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
 </td>
 </tr>
 <tr>
