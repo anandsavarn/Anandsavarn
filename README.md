@@ -53,8 +53,8 @@ class AnandKumar:
 
 
 </td>
+<tr>
 <td width="50%" valign="top">
-
 ### ⬡ WEATHER INTELLIGENCE
 **Real-Time Forecast Analytics**
 
