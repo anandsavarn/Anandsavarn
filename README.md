@@ -1,6 +1,6 @@
 
 <div align="center"> 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=150&section=header&text=ANAND%20KUMAR&fontSize=58&fontColor=00D9GF&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=150&section=header&text=ANAND%20KUMAR&fontSize=58&fontColor=FFFFFF&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
 
 </div> 
    
