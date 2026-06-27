@@ -1,30 +1,24 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=170&section=header&text=ANAND%20KUMAR&fontSize=78&fontColor=ffffff&fontAlignY=40&desc=%20Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI%20&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=170&section=header&text=ANAND%20KUMAR&fontSize=78&fontColor=ffffff&fontAlignY=40&desc=Data%20Science%20·%20ML%20Engineering%20·%20FinTech%20AI&descAlignY=60&descColor=00d9ff&animation=scaleIn" width="100%"/>
+</div>
 
-</div> 
-   
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=+B.Tech+Computer+Science+Engineer+(Data+Science)+from+Lovely+Professional+University;+Building+Predictor.com+—+Live+AI+Stock+Analytics+Platform;+Turning+Raw+Data+into+Deployable+Intelligence;+Open+to+Data+Analyst+·+ML+Engineer+·+BI+Analyst+Roles)](https://github.com/Anandsavarn)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=B.Tech+CSE+(Data+Science)+·+Lovely+Professional+University;Building+Predictor.com+—+Live+AI+Stock+Analytics+Platform;Turning+Raw+Data+into+Deployable+Intelligence;Open+to+Data+Analyst+·+ML+Engineer+·+BI+Analyst+Roles)](https://github.com/Anandsavran)
 
-<br/> 
+<br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=flat-square)](https://github.com/Anandsavarn)
+[![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=flat-square)](https://github.com/Anandsavran)
 &nbsp;`·`&nbsp;
 [![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-anandsavarn.vercel.app-00d9ff?style=flat-square&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
 &nbsp;`·`&nbsp;
-[![Followers](https://img.shields.io/github/followers/anandsavarn?style=flat-square&color=00d9ff&label=FOLLOWERS&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
+[![Followers](https://img.shields.io/github/followers/anandsavarn?style=flat-square&color=00d9ff&label=FOLLOWERS&labelColor=0d1117)](https://github.com/Anandsavran?tab=followers)
 &nbsp;`·`&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
 
 </div>
 
 ---
-## ◈ 3D PORTFOLIO DASHBOARD
-[![3D Dashboard Preview](https://img.shields.io/badge/◈_3D_DASHBOARD-LIVE-00d9ff?style=flat-square)](https://github.com/anandsavarn/Anandsavarn/blob/main/dashboard/dashboard/)
-
-> 🌐 [**Click to open interactive 3D portfolio →**](https://github.com/anandsavarn/Anandsavarn/blob/main/index)
-
 
 ## ◈ SYSTEM PROFILE
 
@@ -55,7 +49,7 @@ class AnandKumar:
 
 ▸ NeuroLoom              [PATENT]
   EEG → GAN Generative Art AI
- 
+
 ▸ Weather Intelligence   [BI]
   Power BI · DAX · REST API
 
@@ -113,6 +107,27 @@ class AnandKumar:
 </td>
 <td width="50%" valign="top">
 
+### ⬡ NEUROLOOM
+**EEG → Generative Art AI** *(Patent)*
+
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
+[![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
+
+```
+┌─────────────────────────────────┐
+│ EEG Headset → FFT/ICA          │
+│ Mental State → SVM/DNN         │
+│ GAN + NST → Generative Art     │
+│ Screen · VR · AR · LED Output  │
+└─────────────────────────────────┘
+```
+`GANs` `NST` `OpenBCI` `SVM` `OpenCV`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### ⬡ WEATHER INTELLIGENCE
 **Real-Time Forecast Analytics**
 
@@ -129,8 +144,6 @@ class AnandKumar:
 `Power BI` `DAX` `Power Query` `WeatherAPI`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### ⬡ TRADING SIGNAL ENGINE
@@ -147,25 +160,6 @@ class AnandKumar:
 └─────────────────────────────────┘
 ```
 `TensorFlow` `Keras` `yfinance` `Plotly` `NumPy`
-
-</td>
-<td width="50%" valign="top">
-
-### ⬡ NEUROLOOM
-**EEG → Generative Art AI** *(Patent)*
-
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
-[![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
-
-```
-┌─────────────────────────────────┐
-│ EEG Headset → FFT/ICA          │
-│ Mental State → SVM/DNN         │
-│ GAN + NST → Generative Art     │
-│ Screen · VR · AR · LED Output  │
-└─────────────────────────────────┘
-```
-`GANs` `NST` `OpenBCI` `SVM` `OpenCV`
 
 </td>
 </tr>
@@ -292,7 +286,7 @@ class AnandKumar:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=anandsavaran&theme=algolia&margin-w=12&margin-h=12&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4"/>
+<img src="https://github-profile-trophy.vercel.app/?username=anandsavarn&theme=algolia&margin-w=12&margin-h=12&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4"/>
 
 </div>
 
@@ -324,7 +318,7 @@ class AnandKumar:
 "Consistency beats talent when talent doesn't work hard."
 ```
 
-📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
+📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavran](https://github.com/Anandsavran) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00d9ff,50:050520,100:000000&height=130&section=footer" width="100%"/>
 
