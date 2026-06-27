@@ -28,13 +28,10 @@
 class AnandKumar:
     degree   = "B.Tech Computer Science and Engineering (Data Science) from Lovely Professional University, Punjab (INDIA)"
     roles    = ["Data Analyst", "ML Engineer", "Data Engineer", "BI Analyst"]
-    stack    = ["Python", "TensorFlow", "Flask", "React", "Power BI", "Kotlin"]
-    contact  = "anandsavarn@gmail.com"
     status   = "🟢 Open to Opportunities"
 ```
 
 ---
-
 ## ◈ PROJECT SHOWCASE
 
 <table>
@@ -47,32 +44,54 @@ class AnandKumar:
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Predictor.com)
 [![Live](https://img.shields.io/badge/LIVE-00C896?style=flat-square)](https://predictor-65n3.onrender.com)
 [![Patent](https://img.shields.io/badge/PATENT_FILED-0A66C2?style=flat-square)]()
+
+```
+
+```
+`LSTM` `Flask` `React` `MongoDB` `yfinance` `JWT`
+
 </td>
-</td>
-<tr>
 <td width="50%" valign="top">
+
 ### ⬡ WEATHER INTELLIGENCE
 **Real-Time Forecast Analytics**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Weather-Analytics-Dashboard)
 
+```
+
+```
+`Power BI` `DAX` `Power Query` `WeatherAPI`
+
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+### ⬡ TRADING SIGNAL ENGINE
+**LSTM Deep Learning · NSE Data**
+
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
+
+```
+
+```
+`TensorFlow` `Keras` `yfinance` `Plotly` `NumPy`
+
+</td>
 <td width="50%" valign="top">
 
 ### ⬡ NEUROLOOM
 **EEG → Generative Art AI** *(Patent)*
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-### ⬡ TRADING SIGNAL ENGINE
-**LSTM Deep Learning · NSE Data**
+[![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
 
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
+```
+
+```
+`GANs` `NST` `OpenBCI` `SVM` `OpenCV`
+
 </td>
 </tr>
 <tr>
@@ -82,9 +101,13 @@ class AnandKumar:
 **235K+ Records · Excel + Power BI**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/EV-Population-Data-Analysis)
+
+```
+
+```
+`Excel` `Power BI` `Pandas` `Plotly` `Folium`
+
 </td>
-</td>
-<tr>
 <td width="50%" valign="top">
 
 ### ⬡ NURTURENEST
@@ -92,9 +115,16 @@ class AnandKumar:
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NurtureNest)
 
+```
+
+```
+`Kotlin` `Android SDK` `AlarmManager` `BroadcastReceiver`
+
 </td>
 </tr>
 </table>
+
+---
 
 ---
 
