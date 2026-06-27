@@ -28,12 +28,12 @@ https://github.com/anandsavarn/Anandsavarn/blob/main/dashboard/dashboard
 > 🌐 [**Click to open interactive 3D portfolio →**](https://github.com/anandsavarn/Anandsavarn/blob/main/index)
 > <div align="center">
 
-[![3D Dashboard](https://img.shields.io/badge/◈_OPEN_3D_DASHBOARD-LIVE-00d9ff?style=for-the-badge)](https://anandsavarn.github.io/Anandsavarn/)
+[![3D Dashboard](https://img.shields.io/badge/◈_OPEN_3D_DASHBOARD-LIVE-00d9ff?style=for-the-badge)](https://github.com/anandsavarn/Anandsavarn/blob/main/index)
 
 </div>
 <div align="center">
 
-[![Portfolio 3D Dashboard](./preview.png)](https://anandsavarn.github.io/Anandsavarn/)
+[![Portfolio 3D Dashboard](./preview.png)](https://github.com/anandsavarn/Anandsavarn/blob/main/index/)
 
 </div>
 
