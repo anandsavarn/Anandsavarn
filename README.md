@@ -8,7 +8,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=⟩_+B.Tech+CSE+(Data+Science)+@+Lovely+Professional+University;⟩_+Building+Predictor.com+—+Live+AI+Stock+Analytics+Platform;⟩_+2×+Patent+Filed+|+NeuroLoom+%2B+Predictor.com;⟩_+Turning+Raw+Data+into+Deployable+Intelligence;⟩_+Open+to+Data+Analyst+·+ML+Engineer+·+BI+Analyst+Roles)](https://github.com/Anandsavarn)
 
-<br/>
+<br/> 
 
 [![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=flat-square)](https://github.com/Anandsavarn)
 &nbsp;`·`&nbsp;
