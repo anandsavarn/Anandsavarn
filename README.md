@@ -288,7 +288,7 @@ class AnandKumar:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=anandsavaran&theme=algolia&margin-w=12&margin-h=12&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4"/>
+<img src="https://github-profile-trophy.vercel.app/?username=anandsavarn&theme=algolia&margin-w=12&margin-h=12&no-bg=true&no-frame=true&rank=SSS,SS,S,AAA,AA,A&column=4"/>
 
 </div>
 
