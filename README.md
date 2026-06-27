@@ -26,11 +26,8 @@
 
 ```python
 class AnandKumar:
-    degree   = "B.Tech CSE (Data Science) — Lovely Professional University, Punjab"
+    degree   = "B.Tech Computer Science and Engineering (Data Science) from Lovely Professional University, Punjab (INDIA)"
     roles    = ["Data Analyst", "ML Engineer", "Data Engineer", "BI Analyst"]
-    flagship = "Predictor.com — AI-Powered Stock Market Analytics  [LIVE]"
-    patents  = ["NeuroLoom — EEG→Art AI  [PCT Recommended]",
-                "Predictor.com — FinTech AI Platform  [Provisional Filed]"]
     stack    = ["Python", "TensorFlow", "Flask", "React", "Power BI", "Kotlin"]
     contact  = "anandsavarn@gmail.com"
     status   = "🟢 Open to Opportunities"
@@ -50,8 +47,7 @@ class AnandKumar:
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Predictor.com)
 [![Live](https://img.shields.io/badge/LIVE-00C896?style=flat-square)](https://predictor-65n3.onrender.com)
 [![Patent](https://img.shields.io/badge/PATENT_FILED-0A66C2?style=flat-square)]()
-
-
+</td>
 </td>
 <tr>
 <td width="50%" valign="top">
@@ -59,7 +55,6 @@ class AnandKumar:
 **Real-Time Forecast Analytics**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Weather-Analytics-Dashboard)
-
 
 </td>
 </tr>
@@ -72,7 +67,8 @@ class AnandKumar:
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
 </td>
 </tr>
-
+<tr>
+<td width="50%" valign="top">
 ### ⬡ TRADING SIGNAL ENGINE
 **LSTM Deep Learning · NSE Data**
 
@@ -87,6 +83,8 @@ class AnandKumar:
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/EV-Population-Data-Analysis)
 </td>
+</td>
+<tr>
 <td width="50%" valign="top">
 
 ### ⬡ NURTURENEST
