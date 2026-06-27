@@ -114,12 +114,6 @@ class AnandKumar:
 **Smart Parenting Android App**
 
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NurtureNest)
-
-```
-
-```
-`Kotlin` `Android SDK` `AlarmManager` `BroadcastReceiver`
-
 </td>
 </tr>
 </table>
