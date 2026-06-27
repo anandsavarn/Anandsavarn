@@ -316,9 +316,9 @@ class AnandKumar:
 
 <div align="center">
 
-```
+
 *Consistency beats talent when talent doesn't work hard.*
-```
+
 
 📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
 <img src="https://capsule-render.vercel.app/api?type=waving&color=400:00ff88,800:003300,800:0a0a0a&height=120&section=footer" width="100%"/>
