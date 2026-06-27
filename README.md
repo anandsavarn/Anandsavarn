@@ -75,8 +75,6 @@ class AnandKumar:
 ### ⬡ NEUROLOOM
 **EEG → Generative Art AI** *(Patent)*
 [![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
-[![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
-
 </td>
 </tr>
 <tr>
