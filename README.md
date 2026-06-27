@@ -115,7 +115,7 @@ status     : Open to opportunities 🟢
 
 <br/>
 
-<div align="center">
+<div align="center"> 
 
 <!-- Streak Stats: FIXED — using streak-stats.demolab.com (herokuapp is dead) -->
 <img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff" alt="GitHub Streak"/>
