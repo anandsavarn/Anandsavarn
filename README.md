@@ -189,28 +189,6 @@ status     : Open to opportunities 🟢
 
 <br/><br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-anandsavarn.vercel.app-00C896?style=for-the-badge)](https://anandsavarn.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Anandsavran-181717?style=for-the-badge&logo=github)](https://github.com/Anandsavran)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/)
-[![Email](https://img.shields.io/badge/Email-anandsavarn@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anandsavarn@gmail.com)
-[![Live App](https://img.shields.io/badge/🚀%20Predictor.com-LIVE-brightgreen?style=for-the-badge)](https://predictor-65n3.onrender.com)
-
-</div>
-
----
 
 ## 👨‍💻 About Me
 
@@ -230,23 +208,6 @@ anand = {
 }
 ```
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Anandsavran&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="170"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anandsavran&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Anandsavran&theme=tokyonight&hide_border=true" height="170"/>
-
-</div>
-
----
 
 ## 📜 Patents & Intellectual Property
 
@@ -1001,7 +962,7 @@ Device Reboots?
 
 **B.Tech — Computer Science Engineering (Data Science)**
 Lovely Professional University (LPU), Punjab, India
-Expected Graduation: August 2025 · UID: 12320597
+Expected Graduation: August 2027
 
 ---
 
@@ -1022,14 +983,6 @@ Expected Graduation: August 2025 · UID: 12320597
 ---
 
 <div align="center">
-
-## 📬 Connect With Me
-
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-anandsavarn.vercel.app-00C896?style=for-the-badge)](https://anandsavarn.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/)
-[![Email](https://img.shields.io/badge/Email-anandsavarn@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anandsavarn@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow%20@Anandsavran-181717?style=for-the-badge&logo=github)](https://github.com/Anandsavran)
-[![Live App](https://img.shields.io/badge/🚀%20Predictor.com-Try%20Live-brightgreen?style=for-the-badge)](https://predictor-65n3.onrender.com)
 
 <br/>
 
