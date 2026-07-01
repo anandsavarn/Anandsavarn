@@ -40,16 +40,15 @@ class AnandKumar:
 ### ⬡ PREDICTOR.COM
 **AI Trading Intelligence Platform**
 
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Predictor.com)
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Predictor.com)
 [![Live](https://img.shields.io/badge/LIVE-00C896?style=flat-square)](https://predictor-65n3.onrender.com)
-[![Patent](https://img.shields.io/badge/PATENT_FILED-0A66C2?style=flat-square)]()
 </td>
 <td width="50%" valign="top">
 
 ### ⬡ WEATHER INTELLIGENCE
 **Real-Time Forecast Analytics**
 
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Weather-Analytics-Dashboard)
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Weather-Analytics-Dashboard)
 </td>
 </tr>
 <tr>
@@ -58,14 +57,14 @@ class AnandKumar:
 ### ⬡ TRADING SIGNAL ENGINE
 **LSTM Deep Learning · NSE Data**
 
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/Stock-Price-Predictor-LSTM)
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Stock-Price-Predictor-LSTM)
 </td>
 <td width="50%" valign="top">
 
 ### ⬡ NEUROLOOM
 **EEG → Generative Art AI** *(Patent)*
 
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NeuroLoom)
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/NeuroLoom)
 [![Patent](https://img.shields.io/badge/PCT_RECOMMENDED-8A2BE2?style=flat-square)]()
 </td>
 </tr>
@@ -75,14 +74,14 @@ class AnandKumar:
 ### ⬡ EV POPULATION ANALYSIS
 **235K+ Records · Excel + Power BI**
 
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/EV-Population-Data-Analysis)
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/EV-Population-Data-Analysis)
 </td>
 <td width="50%" valign="top">
 
 ### ⬡ NURTURENEST
 **Smart Parenting Android App**
 
-[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavran/NurtureNest)
+[![Repo](https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/NurtureNest)
 </td>
 </tr>
 </table>
