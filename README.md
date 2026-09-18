@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:6A11CB,50:2575FC,100:11998E&height=260&section=header&text=ANAND%20KUMAR&fontSize=64&fontColor=FFFFFF&fontAlignY=42&desc=Data%20Science%20Engineer%20·%20Full-Stack%20Developer%20·%20AI%20Builder&descAlignY=62&descColor=E0E7FF&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:0A1128,100:001F3F&height=260&section=header&text=ANAND%20KUMAR&fontSize=64&fontColor=00F5FF&fontAlignY=42&desc=Data%20Science%20Engineer%20%C2%B7%20Full-Stack%20Developer%20%C2%B7%20AI%20Builder&descAlignY=62&descColor=8FA3BF&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=800&color=2575FC&center=true&vCenter=true&width=700&lines=Turning+raw+data+into+deployable+intelligence;Building+Predictor.com+%E2%80%94+live+AI+stock+analytics;Python+%2B+Machine+Learning+%2B+Full-Stack;Open+to+Data+Analyst+%C2%B7+ML+Engineer+%C2%B7+BI+roles" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=Turning+raw+data+into+deployable+intelligence;Building+Predictor.com+%E2%80%94+live+AI+stock+analytics;Python+%2B+Machine+Learning+%2B+Full-Stack;Open+to+Data+Analyst+%C2%B7+ML+Engineer+%C2%B7+BI+roles" alt="Typing SVG" />
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=anandsavarn&label=PROFILE+VIEWS&color=2575FC&style=for-the-badge" />
-<img src="https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&color=2575FC&label=FOLLOWERS&labelColor=0d1117" />
-<a href="https://anandsavarn.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-2575FC?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=anandsavarn&label=PROFILE+VIEWS&color=00F5FF&style=for-the-badge" />
+<img src="https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&color=00F5FF&label=FOLLOWERS&labelColor=0d1117" />
+<a href="https://anandsavarn.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-00F5FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 <a href="https://www.linkedin.com/in/anandsavarn/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 </div>
@@ -40,7 +40,7 @@ I'm a **B.Tech CSE (Data Science)** student at **Lovely Professional University*
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:6A11CB,100:2575FC&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0A1128,100:00F5FF&height=3&section=header" width="100%"/>
 
 ## 🚀 Featured Work
 
@@ -51,7 +51,7 @@ I'm a **B.Tech CSE (Data Science)** student at **Lovely Professional University*
 <p><b>AI Trading Intelligence Platform</b><br/>
 Real-time AI-powered stock analytics with predictive market signals.</p>
 <a href="https://github.com/Anandsavarn/Predictor.com"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github"/></a>
-<a href="https://predictor-65n3.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEMO-2575FC?style=flat-square&logo=render&logoColor=white"/></a>
+<a href="https://predictor-65n3.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEMO-00F5FF?style=flat-square&logo=render&logoColor=white"/></a>
 </td>
 <td width="50%" valign="top">
 <h3>⬡ Weather Intelligence</h3>
@@ -90,7 +90,7 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:2575FC,100:11998E&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:00F5FF,100:001F3F&height=3&section=header" width="100%"/>
 
 ## 🛠️ Tech Stack
 
@@ -110,30 +110,30 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:11998E,100:6A11CB&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:001F3F,100:0A1128&height=3&section=header" width="100%"/>
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=2575FC&icon_color=2575FC&cache_seconds=1800"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=2575FC&cache_seconds=1800"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00F5FF&icon_color=00F5FF&cache_seconds=1800"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F5FF&cache_seconds=1800"/>
 </div>
 
 <div align="center">
-<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=2575FC&fire=2575FC&currStreakLabel=2575FC&sideLabels=2575FC"/>
+<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF&sideLabels=00F5FF"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=2575FC&line=2575FC&point=ffffff&hide_border=true&area=true&area_color=2575FC"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00F5FF&line=00F5FF&point=ffffff&hide_border=true&area=true&area_color=00F5FF"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:6A11CB,100:2575FC&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0A1128,100:00F5FF&height=3&section=header" width="100%"/>
 
 ## 🌐 Find Me Online
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-2575FC?style=for-the-badge&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-00F5FF?style=for-the-badge&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
 [![Kaggle](https://img.shields.io/badge/KAGGLE-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/anandsavarn)
 [![LeetCode](https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/anandsavarn/)
@@ -153,10 +153,9 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 
 *Consistency beats talent when talent doesn't work hard.*
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:11998E,50:2575FC,100:6A11CB&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:001F3F,50:0A1128,100:000000&height=120&section=footer" width="100%"/>
 
 </div>
-
 
 
 
