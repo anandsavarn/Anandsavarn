@@ -1,195 +1,136 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=150&section=header&text=ANAND%20KUMAR&fontSize=58&fontColor=58A6FF&fontAlignY=40&desc=Data%20Science%20·%20AI%20ML%20Engineering&descAlignY=60&descColor=38BDF8&animation=scaleIn" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243E&height=220&section=header&text=ANAND%20KUMAR&fontSize=52&fontColor=00E5FF&fontAlignY=38&desc=Data%20Science%20Engineer%20·%20Full-Stack%20Developer&descAlignY=58&descColor=A0AEC0&animation=fadeIn" width="100%"/>
+
 </div>
 
-<div align="center">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="62%" valign="middle">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=B.Tech+Computer+Science+Engineer+(Data+Science)+%40+Lovely+Professional+University;Building+Predictor.com+%E2%80%94+Live+AI+Stock+Analytics+Platform;Turning+Raw+Data+into+Deployable+Intelligence;Open+to+Data+Analyst+%C2%B7+ML+Engineer+%C2%B7+BI+Analyst+Roles)](https://github.com/Anandsavarn)
+### Hi, I'm Anand 👋
+
+B.Tech CSE (Data Science) student at **Lovely Professional University**, building AI-driven products and turning raw data into decisions that matter.
+
+Currently shipping **[Predictor.com](https://predictor-65n3.onrender.com)** — a live AI stock analytics platform — while exploring roles in **Data Analytics, ML Engineering, and BI**.
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&pause=1000&color=00E5FF&center=false&vCenter=true&width=480&lines=Turning+raw+data+into+deployable+intelligence;Building+with+Python+%2B+ML+%2B+React;Open+to+Data+Analyst+%C2%B7+ML+Engineer+roles" alt="Typing SVG" />
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="500">
-
-<br/><br/>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=for-the-badge)](https://github.com/Anandsavarn)
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-anandsavarn.vercel.app-00d9ff?style=for-the-badge&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
-[![Followers](https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&color=00d9ff&label=FOLLOWERS&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
-
-</div>
-
----
-
-### ◈ About Me
-
-```python
-class AnandKumar:
-    def __init__(self):
-        self.degree   = "B.Tech CSE (Data Science) — Lovely Professional University, Punjab, India"
-        self.roles    = ["Data Analyst", "ML Engineer", "Data Engineer", "BI Analyst"]
-        self.focus    = ["AI/ML Systems", "Full-Stack Development", "Business Intelligence"]
-        self.status   = "🟢 Open to Opportunities"
-
-    def __repr__(self):
-        return "Turning raw data into deployable intelligence."
-```
-
----
-
-## ◈ Project Showcase
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ Predictor.com
-**AI Trading Intelligence Platform**
-
-An AI-powered stock analytics platform delivering real-time market insights and predictive signals.
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Predictor.com)
-[![Live](https://img.shields.io/badge/LIVE_DEMO-00C896?style=flat-square&logo=render&logoColor=white)](https://predictor-65n3.onrender.com)
+<a href="https://anandsavarn.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-00E5FF?style=for-the-badge&logo=vercel&logoColor=black" /></a>
+<a href="https://www.linkedin.com/in/anandsavarn/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/Anandsavarn?tab=followers"><img src="https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&color=00E5FF&label=FOLLOWERS&labelColor=0d1117" /></a>
 
 </td>
-<td width="50%" valign="top">
+<td width="38%" align="center">
 
-### ⬡ Weather Intelligence
-**Real-Time Forecast Analytics**
-
-A weather analytics dashboard turning live meteorological data into clear, actionable visuals.
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Weather-Analytics-Dashboard)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ Trading Signal Engine
-**LSTM Deep Learning · NSE Data**
-
-A deep learning model using LSTM networks to forecast stock price movement from NSE market data.
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Stock-Price-Predictor-LSTM)
-
-</td>
-<td width="50%" valign="top">
-
-### ⬡ NeuroLoom
-**EEG → Generative Art AI** *(Patented)*
-
-Converts EEG brain-signal data into generative visual art using AI.
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/NeuroLoom)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ EV Population Analysis
-**235K+ Records · Excel + Power BI**
-
-Large-scale exploratory analysis of electric vehicle adoption trends using Excel and Power BI dashboards.
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/EV-Population-Data-Analysis)
-
-</td>
-<td width="50%" valign="top">
-
-### ⬡ NurtureNest
-**Smart Parenting Android App**
-
-An Android application built to assist parents with smart, data-driven parenting tools.
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/NurtureNest)
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%">
 
 </td>
 </tr>
 </table>
 
----
+<div align="center">
 
-## ◈ Tech Stack
+![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=PROFILE+VIEWS&color=00E5FF&style=flat-square)
+
+</div>
+
+<br/>
+
+## 🚀 Featured Work
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ Predictor.com</h3>
+<p><b>AI Trading Intelligence Platform</b><br/>
+Real-time AI-powered stock analytics with predictive market signals.</p>
+<a href="https://github.com/Anandsavarn/Predictor.com"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github"/></a>
+<a href="https://predictor-65n3.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEMO-00C896?style=flat-square&logo=render&logoColor=white"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ Weather Intelligence</h3>
+<p><b>Real-Time Forecast Analytics</b><br/>
+A weather dashboard turning live meteorological data into clear visual insight.</p>
+<a href="https://github.com/Anandsavarn/Weather-Analytics-Dashboard"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ Trading Signal Engine</h3>
+<p><b>LSTM Deep Learning · NSE Data</b><br/>
+Deep learning model forecasting stock price movement from NSE data.</p>
+<a href="https://github.com/Anandsavarn/Stock-Price-Predictor-LSTM"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ NeuroLoom <sub>(Patented)</sub></h3>
+<p><b>EEG → Generative Art AI</b><br/>
+Converts EEG brain-signal data into generative visual art using AI.</p>
+<a href="https://github.com/Anandsavarn/NeuroLoom"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ EV Population Analysis</h3>
+<p><b>235K+ Records · Excel + Power BI</b><br/>
+Large-scale analysis of EV adoption trends with interactive BI dashboards.</p>
+<a href="https://github.com/Anandsavarn/EV-Population-Data-Analysis"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ NurtureNest</h3>
+<p><b>Smart Parenting Android App</b><br/>
+An Android app built to assist parents with data-driven parenting tools.</p>
+<a href="https://github.com/Anandsavarn/NurtureNest"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github"/></a>
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
-**Languages**
-<br/>
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+<img src="https://skillicons.dev/icons?i=python,kotlin,javascript,cpp,c&theme=dark" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=tensorflow,sklearn,pandas,numpy&theme=dark" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=flask,react,html,css,mongodb&theme=dark" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,git,github,linux,vscode,vercel,androidstudio&theme=dark" /><br/><br/>
 
-**AI / ML**
-<br/>
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
-
-**Business Intelligence**
-<br/>
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Power Query](https://img.shields.io/badge/Power%20Query-742774?style=for-the-badge&logo=microsoft&logoColor=white)
-
-**Web & Backend**
-<br/>
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Databases**
-<br/>
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Tools & Platforms**
-<br/>
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
 
 </div>
 
----
+<br/>
 
-## ◈ GitHub Stats
+## 📊 GitHub Analytics
 
 <div align="center">
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&cache_seconds=1800"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&cache_seconds=1800"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00E5FF&icon_color=00E5FF&cache_seconds=1800"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00E5FF&cache_seconds=1800"/>
 </div>
 
 <div align="center">
-<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff&sideLabels=00d9ff"/>
+<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF&sideLabels=00E5FF"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&hide_border=true&area=true&area_color=00d9ff"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00E5FF&line=00E5FF&point=ffffff&hide_border=true&area=true&area_color=00E5FF"/>
 </div>
 
----
+<br/>
 
-## ◈ Connect With Me
+## 🌐 Find Me Online
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-00d9ff?style=for-the-badge&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-00E5FF?style=for-the-badge&logo=vercel&logoColor=black)](https://anandsavarn.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
 [![Kaggle](https://img.shields.io/badge/KAGGLE-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/anandsavarn)
 [![LeetCode](https://img.shields.io/badge/LEETCODE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/anandsavarn/)
@@ -203,7 +144,7 @@ An Android application built to assist parents with smart, data-driven parenting
 
 </div>
 
----
+<br/>
 
 <div align="center">
 
@@ -211,9 +152,15 @@ An Android application built to assist parents with smart, data-driven parenting
 
 📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=400:00ff88,800:003300,800:0a0a0a&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243E,50:302B63,100:0F0C29&height=120&section=footer" width="100%"/>
 
 </div>
+
+
+
+
+
+
 
 
 
