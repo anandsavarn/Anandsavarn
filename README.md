@@ -1,5 +1,180 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,35:0A1128,70:001F3F,100:003459&height=260&section=header&text=ANAND%20KUMAR&fontSize=62&fontColor=00F5FF&fontAlignY=38&desc=Data%20Science%20Engineer%20%C2%B7%20Full-Stack%20Developer%20%C2%B7%20AI%20Builder&descAlignY=58&descColor=7C93B3&animation=fadeIn" width="100%"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=Turning+raw+data+into+deployable+intelligence;Building+Predictor.com+%E2%80%94+live+AI+stock+analytics;Python+%2B+Machine+Learning+%2B+Full-Stack;Open+to+Data+Analyst+%C2%B7+ML+Engineer+%C2%B7+BI+roles" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/PROFILE%20VIEWS-000000?style=for-the-badge&labelColor=0d1117&color=00F5FF&logoColor=00F5FF"/> <img src="https://komarev.com/ghpvc/?username=anandsavarn&color=00F5FF&style=for-the-badge&label=+" height="28"/>
+<a href="https://github.com/Anandsavarn?tab=followers"><img src="https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&label=FOLLOWERS&labelColor=0d1117&color=00F5FF"/></a>
+<a href="https://anandsavarn.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF&logo=vercel&logoColor=00F5FF"/></a>
+<a href="https://www.linkedin.com/in/anandsavarn/"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&labelColor=0d1117&color=0A66C2&logo=linkedin&logoColor=white"/></a>
+
+</div>
+
+<br/>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="60%" valign="middle">
+
+## 👋 About Me
+
+I'm a **B.Tech CSE (Data Science)** student at **Lovely Professional University**, building AI-driven products end-to-end — from data pipeline to deployed interface.
+
+- 🔭 Currently building **[Predictor.com](https://predictor-65n3.onrender.com)** — a live AI-powered stock analytics platform
+- 🧠 Focused on **Machine Learning**, **Business Intelligence**, and **Full-Stack Development**
+- 🎓 Completed a **Data Analyst internship** at Ratial Home Services Pvt. Ltd.
+- 🎯 Open to roles as **Data Analyst · ML Engineer · Data Engineer · BI Analyst**
+- 📫 Reach me at **anandsavarn@gmail.com**
+
+</td>
+<td width="40%" align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%">
+
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00F5FF&height=3" width="100%"/>
+
+## 🚀 Featured Work
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ Predictor.com</h3>
+<p><b>AI Trading Intelligence Platform</b><br/>
+Real-time AI-powered stock analytics with predictive market signals.</p>
+<img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/>
+<a href="https://github.com/Anandsavarn/Predictor.com"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+<a href="https://predictor-65n3.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEMO-0d1117?style=flat-square&labelColor=0d1117&color=00E676&logo=render&logoColor=white"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ Weather Intelligence</h3>
+<p><b>Real-Time Forecast Analytics</b><br/>
+A weather dashboard turning live meteorological data into clear visual insight.</p>
+<a href="https://github.com/Anandsavarn/Weather-Analytics-Dashboard"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ Trading Signal Engine</h3>
+<p><b>LSTM Deep Learning · NSE Data</b><br/>
+Deep learning model forecasting stock price movement from NSE data.</p>
+<a href="https://github.com/Anandsavarn/Stock-Price-Predictor-LSTM"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ NeuroLoom <sub>(Patented)</sub></h3>
+<p><b>EEG → Generative Art AI</b><br/>
+Converts EEG brain-signal data into generative visual art using AI.</p>
+<a href="https://github.com/Anandsavarn/NeuroLoom"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ EV Population Analysis</h3>
+<p><b>235K+ Records · Excel + Power BI</b><br/>
+Large-scale analysis of EV adoption trends with interactive BI dashboards.</p>
+<a href="https://github.com/Anandsavarn/EV-Population-Data-Analysis"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ NurtureNest</h3>
+<p><b>Smart Parenting Android App</b><br/>
+An Android app built to assist parents with data-driven parenting tools.</p>
+<a href="https://github.com/Anandsavarn/NurtureNest"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:000000&height=3" width="100%"/>
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,kotlin,javascript,cpp,c&theme=dark" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=tensorflow,sklearn,pandas,numpy&theme=dark" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=flask,react,html,css,mongodb&theme=dark" /><br/><br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,git,github,linux,vscode,vercel,androidstudio&theme=dark" /><br/><br/>
+
+<img src="https://img.shields.io/badge/Power%20BI-0d1117?style=for-the-badge&labelColor=0d1117&color=F2C811&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Excel-0d1117?style=for-the-badge&labelColor=0d1117&color=217346&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/DAX-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF&logo=microsoft&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power%20Query-0d1117?style=for-the-badge&labelColor=0d1117&color=742774&logo=microsoft&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&labelColor=0d1117&color=F37626&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-0d1117?style=for-the-badge&labelColor=0d1117&color=46E3B7&logo=render&logoColor=black"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00F5FF&height=3" width="100%"/>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00F5FF&icon_color=00F5FF&text_color=c9d1d9&cache_seconds=1800"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F5FF&text_color=c9d1d9&cache_seconds=1800"/>
+</div>
+
+<div align="center">
+<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF&sideLabels=c9d1d9"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00F5FF&line=00F5FF&point=ffffff&hide_border=true&area=true&area_color=00F5FF"/>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:000000&height=3" width="100%"/>
+
+## 🌐 Find Me Online
+
+<div align="center">
+
+<a href="https://anandsavarn.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF&logo=vercel&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/anandsavarn/"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&labelColor=0d1117&color=0A66C2&logo=linkedin&logoColor=white"/></a>
+<a href="https://www.kaggle.com/anandsavarn"><img src="https://img.shields.io/badge/KAGGLE-0d1117?style=for-the-badge&labelColor=0d1117&color=20BEFF&logo=kaggle&logoColor=white"/></a>
+<a href="https://leetcode.com/u/anandsavarn/"><img src="https://img.shields.io/badge/LEETCODE-0d1117?style=for-the-badge&labelColor=0d1117&color=FFA116&logo=leetcode&logoColor=white"/></a>
+<a href="https://www.hackerrank.com/profile/anandsavarn"><img src="https://img.shields.io/badge/HACKERRANK-0d1117?style=for-the-badge&labelColor=0d1117&color=2EC866&logo=hackerrank&logoColor=white"/></a>
+<a href="https://stackoverflow.com/users/23034645/anand-kumar"><img src="https://img.shields.io/badge/STACK_OVERFLOW-0d1117?style=for-the-badge&labelColor=0d1117&color=F58025&logo=stackoverflow&logoColor=white"/></a>
+<a href="https://www.geeksforgeeks.org/user/anandswqmi/"><img src="https://img.shields.io/badge/GFG-0d1117?style=for-the-badge&labelColor=0d1117&color=2F8D46&logo=geeksforgeeks&logoColor=white"/></a>
+<a href="https://www.codechef.com/users/anand_savarn"><img src="https://img.shields.io/badge/CODECHEF-0d1117?style=for-the-badge&labelColor=0d1117&color=5B4638&logo=codechef&logoColor=white"/></a>
+<a href="https://www.hackerearth.com/@anandsavarn/"><img src="https://img.shields.io/badge/HACKEREARTH-0d1117?style=for-the-badge&labelColor=0d1117&color=2C3454&logo=hackerearth&logoColor=white"/></a>
+<a href="https://www.youtube.com/@anandsavarn1"><img src="https://img.shields.io/badge/YOUTUBE-0d1117?style=for-the-badge&labelColor=0d1117&color=FF0000&logo=youtube&logoColor=white"/></a>
+<a href="https://www.instagram.com/anand_savarn/"><img src="https://img.shields.io/badge/INSTAGRAM-0d1117?style=for-the-badge&labelColor=0d1117&color=E4405F&logo=instagram&logoColor=white"/></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+*Consistency beats talent when talent doesn't work hard.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003459,35:001F3F,70:0A1128,100:000000&height=120&section=footer" width="100%"/>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:0A1128,100:001F3F&height=260&section=header&text=ANAND%20KUMAR&fontSize=64&fontColor=00F5FF&fontAlignY=42&desc=Data%20Science%20Engineer%20%C2%B7%20Full-Stack%20Developer%20%C2%B7%20AI%20Builder&descAlignY=62&descColor=8FA3BF&animation=fadeIn" width="100%"/>
 
 <br/>
