@@ -1,6 +1,7 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=150&section=header&text=ANAND%20KUMAR&fontSize=58&fontColor=58A6FF&fontAlignY=40&desc=Data%20Science%20·%20AI%20ML%20Engineering%20&descAlignY=60&descColor=38BDF8&animation=scaleIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,20:050520,45:0a0a3e,70:0d1b4c,100:00d9ff&height=180&section=header&text=ANAND%20KUMAR&fontSize=60&fontColor=58A6FF&fontAlignY=38&desc=Data%20Science%20·%20AI%20ML%20Engineering&descAlignY=58&descColor=38BDF8&animation=twinkling" width="100%"/>
 <br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=Turning+raw+data+into+deployable+intelligence;Building+Predictor.com+%E2%80%94+live+AI+stock+analytics;Python+%2B+Machine+Learning+%2B+International+Business;Open+to+Data+Analyst+%C2%B7+ML+Engineer+%C2%B7+BI+roles" alt="Typing SVG" />
