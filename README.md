@@ -149,24 +149,6 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 
 </div>
 
-
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,kotlin,javascript,cpp,c&theme=dark" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=tensorflow,sklearn,pandas,numpy&theme=dark" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=flask,react,html,css,mongodb&theme=dark" /><br/><br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,git,github,linux,vscode,vercel,androidstudio&theme=dark" /><br/><br/>
-
-<img src="https://img.shields.io/badge/Power%20BI-0d1117?style=for-the-badge&labelColor=0d1117&color=F2C811&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/Excel-0d1117?style=for-the-badge&labelColor=0d1117&color=217346&logo=microsoftexcel&logoColor=white"/>
-<img src="https://img.shields.io/badge/DAX-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF&logo=microsoft&logoColor=white"/>
-<img src="https://img.shields.io/badge/Power%20Query-0d1117?style=for-the-badge&labelColor=0d1117&color=742774&logo=microsoft&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jupyter-0d1117?style=for-the-badge&labelColor=0d1117&color=F37626&logo=jupyter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-0d1117?style=for-the-badge&labelColor=0d1117&color=46E3B7&logo=render&logoColor=black"/>
-
-</div>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00F5FF&height=3" width="100%"/>
 
 ## 📊 GitHub Analytics
