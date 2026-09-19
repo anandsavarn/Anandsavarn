@@ -210,98 +210,106 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 
 
 
+
+
+
 <div align="center">
+
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,25:050520,60:0a0a3e,100:00d9ff&height=150&section=header&text=ANAND%20KUMAR&fontSize=58&fontColor=58A6FF&fontAlignY=40&desc=Data%20Science%20·%20AI%20ML%20Engineering%20&descAlignY=60&descColor=38BDF8&animation=scaleIn" width="100%"/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=Turning+raw+data+into+deployable+intelligence;Building+Predictor.com+%E2%80%94+live+AI+stock+analytics;Python+%2B+Machine+Learning+%2B+International+Business;Open+to+Data+Analyst+%C2%B7+ML+Engineer+%C2%B7+BI+roles" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/PROFILE%20VIEWS-000000?style=for-the-badge&labelColor=0d1117&color=00F5FF&logoColor=00F5FF"/> <img src="https://komarev.com/ghpvc/?username=anandsavarn&color=00F5FF&style=for-the-badge&label=+" height="28"/>
+<a href="https://github.com/Anandsavarn?tab=followers"><img src="https://img.shields.io/github/followers/anandsavarn?style=for-the-badge&label=FOLLOWERS&labelColor=0d1117&color=00F5FF"/></a>
+<a href="https://anandsavarn.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF&logo=vercel&logoColor=00F5FF"/></a>
+<a href="https://www.linkedin.com/in/anandsavarn/"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&labelColor=0d1117&color=0A66C2&logo=linkedin&logoColor=white"/></a>
+<a href="https://leetcode.com/u/anandsavarn/"><img src="https://img.shields.io/badge/LEETCODE-0d1117?style=for-the-badge&labelColor=0d1117&color=FFA116&logo=leetcode&logoColor=white"/></a>
 
 </div>
 
-<div align="center">
+<br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&pause=900&color=00D9FF&center=true&vCenter=true&width=780&lines=+B.Tech+Computer+Science+Engineer+(Data+Science)+from+Lovely+Professional+University;+Building+Predictor.com+—+Live+AI+Stock+Analytics+Platform;+Turning+Raw+Data+into+Deployable+Intelligence;+Open+to+Data+Analyst+·+ML+Engineer+·+BI+Analyst+Roles)](https://github.com/Anandsavarn)
-
-<br/> 
-
-[![Profile Views](https://komarev.com/ghpvc/?username=anandsavarn&label=VIEWS&color=00d9ff&style=flat-square)](https://github.com/Anandsavarn)
-&nbsp;&nbsp;
-[![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-anandsavarn.vercel.app-00d9ff?style=flat-square&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
-&nbsp;&nbsp;
-[![Followers](https://img.shields.io/github/followers/anandsavarn?style=flat-square&color=00d9ff&label=FOLLOWERS&labelColor=0d1117)](https://github.com/Anandsavarn?tab=followers)
-&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
-
-</div>
-
----
-
-## ◈ SYSTEM PROFILE
-
-```python
-class AnandKumar:
-    degree   = "B.Tech Computer Science and Engineering (Data Science) from Lovely Professional University, Punjab (INDIA)"
-    roles    = ["Data Analyst", "ML Engineer", "Data Engineer", "BI Analyst"]
-    status   = "🟢 Open to Opportunities"
-```
-
----
-## ◈ PROJECT SHOWCASE
-
-<table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td width="50%" valign="top">
+<td width="60%" valign="middle">
 
-### ⬡ PREDICTOR.COM
-**AI Trading Intelligence Platform**
+## 👋 About Me
 
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Predictor.com)
-[![Live](https://img.shields.io/badge/LIVE-00C896?style=flat-square)](https://predictor-65n3.onrender.com)
+I'm a **B.Tech CSE (Data Science)** student at **Lovely Professional University, Punjab (INDIA)**, building AI-driven products end-to-end — from data pipeline to deployed interface.
+
+- 📘 Also knowledgeable in **International Finance Management** & **International Business**
+- 🔭 Currently building **[Predictor.com](https://predictor-65n3.onrender.com)** — a live AI-powered stock analytics platform
+- 🧠 Focused on **Machine Learning**, **Business Intelligence**, and **Full-Stack Development**
+- 🎓 Completed a **Data Analyst internship** at Ratial Home Services Pvt. Ltd.
+- 🎯 Open to roles as **Data Analyst · ML Engineer · Data Engineer · BI Analyst**
+- 📫 Reach me at **anandsavarn@gmail.com**
+
 </td>
-<td width="50%" valign="top">
+<td width="40%" align="center">
 
-### ⬡ WEATHER INTELLIGENCE
-**Real-Time Forecast Analytics**
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%">
 
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Weather-Analytics-Dashboard)
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ TRADING SIGNAL ENGINE
-**LSTM Deep Learning · NSE Data**
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/Stock-Price-Predictor-LSTM)
-</td>
-<td width="50%" valign="top">
-
-### ⬡ NEUROLOOM
-**EEG → Generative Art AI** *(Patent)*
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/NeuroLoom)
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ EV POPULATION ANALYSIS
-**235K+ Records · Excel + Power BI**
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/EV-Population-Data-Analysis)
-</td>
-<td width="50%" valign="top">
-
-### ⬡ NURTURENEST
-**Smart Parenting Android App**
-
-[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/Anandsavarn/NurtureNest)
 </td>
 </tr>
 </table>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00F5FF&height=3" width="100%"/>
 
----
+## 🚀 Featured Work
 
-## ◈ TECH STACK
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ Predictor.com</h3>
+<p><b>AI Trading Intelligence Platform</b><br/>
+Real-time AI-powered stock analytics with predictive market signals.</p>
+<img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/>
+<a href="https://github.com/Anandsavarn/Predictor.com"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+<a href="https://predictor-65n3.onrender.com"><img src="https://img.shields.io/badge/LIVE_DEMO-0d1117?style=flat-square&labelColor=0d1117&color=00E676&logo=render&logoColor=white"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ Weather Intelligence</h3>
+<p><b>Real-Time Forecast Analytics</b><br/>
+A weather dashboard turning live meteorological data into clear visual insight.</p>
+<a href="https://github.com/Anandsavarn/Weather-Analytics-Dashboard"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ Trading Signal Engine</h3>
+<p><b>LSTM Deep Learning · NSE Data</b><br/>
+Deep learning model forecasting stock price movement from NSE data.</p>
+<a href="https://github.com/Anandsavarn/Stock-Price-Predictor-LSTM"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ NeuroLoom <sub>(Patented)</sub></h3>
+<p><b>EEG → Generative Art AI</b><br/>
+Converts EEG brain-signal data into generative visual art using AI.</p>
+<a href="https://github.com/Anandsavarn/NeuroLoom"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>⬡ EV Population Analysis</h3>
+<p><b>235K+ Records · Excel + Power BI</b><br/>
+Large-scale analysis of EV adoption trends with interactive BI dashboards.</p>
+<a href="https://github.com/Anandsavarn/EV-Population-Data-Analysis"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+<td width="50%" valign="top">
+<h3>⬡ NurtureNest</h3>
+<p><b>Smart Parenting Android App</b><br/>
+An Android app built to assist parents with data-driven parenting tools.</p>
+<a href="https://github.com/Anandsavarn/NurtureNest"><img src="https://img.shields.io/badge/REPO-0d1117?style=flat-square&labelColor=0d1117&color=00F5FF&logo=github&logoColor=white"/></a>
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:000000&height=3" width="100%"/>
+
+## 🛠️ Tech Stack
  
 <div align="center">
 
@@ -356,33 +364,38 @@ class AnandKumar:
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00F5FF&height=3" width="100%"/>
 
-## ◈ GITHUB STATS
+## 📊 GitHub Analytics
 
 <div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d9ff&icon_color=00d9ff&cache_seconds=1800"/>
-&nbsp;
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00d9ff&cache_seconds=1800"/>
-
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00F5FF&icon_color=00F5FF&text_color=c9d1d9&cache_seconds=1800"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F5FF&text_color=c9d1d9&cache_seconds=1800"/>
 </div>
 
 <div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00d9ff&fire=00d9ff&currStreakLabel=00d9ff&sideLabels=00d9ff"/>
-
+<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF&sideLabels=c9d1d9"/>
 </div>
 
 <div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00F5FF&line=00F5FF&point=ffffff&hide_border=true&area=true&area_color=00F5FF"/>
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&hide_border=true&area=true&area_color=00d9ff"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:000000&height=3" width="100%"/>
+
+## 🧩 LeetCode Performance
+
+<div align="center">
+
+<img src="https://leetcard.jacoblin.cool/anandsavarn?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="90%"/>
 
 </div>
 
----
+<p align="center"><sub>This card pulls live from LeetCode's API on every page load, so it refreshes automatically — no manual updates needed.</sub></p>
 
-## ◈ CONNECT
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00F5FF&height=3" width="100%"/>
+
+## 🌐 Find Me Online
 
 <div align="center">
 
