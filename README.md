@@ -172,29 +172,33 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 
 <div align="center">
 
-<a href="https://anandsavarn.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-0d1117?style=for-the-badge&labelColor=0d1117&color=00F5FF&logo=vercel&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/anandsavarn/"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&labelColor=0d1117&color=0A66C2&logo=linkedin&logoColor=white"/></a>
-<a href="https://www.kaggle.com/anandsavarn"><img src="https://img.shields.io/badge/KAGGLE-0d1117?style=for-the-badge&labelColor=0d1117&color=20BEFF&logo=kaggle&logoColor=white"/></a>
-<a href="https://leetcode.com/u/anandsavarn/"><img src="https://img.shields.io/badge/LEETCODE-0d1117?style=for-the-badge&labelColor=0d1117&color=FFA116&logo=leetcode&logoColor=white"/></a>
-<a href="https://www.hackerrank.com/profile/anandsavarn"><img src="https://img.shields.io/badge/HACKERRANK-0d1117?style=for-the-badge&labelColor=0d1117&color=2EC866&logo=hackerrank&logoColor=white"/></a>
-<a href="https://stackoverflow.com/users/23034645/anand-kumar"><img src="https://img.shields.io/badge/STACK_OVERFLOW-0d1117?style=for-the-badge&labelColor=0d1117&color=F58025&logo=stackoverflow&logoColor=white"/></a>
-<a href="https://www.geeksforgeeks.org/user/anandswqmi/"><img src="https://img.shields.io/badge/GFG-0d1117?style=for-the-badge&labelColor=0d1117&color=2F8D46&logo=geeksforgeeks&logoColor=white"/></a>
-<a href="https://www.codechef.com/users/anand_savarn"><img src="https://img.shields.io/badge/CODECHEF-0d1117?style=for-the-badge&labelColor=0d1117&color=5B4638&logo=codechef&logoColor=white"/></a>
-<a href="https://www.hackerearth.com/@anandsavarn/"><img src="https://img.shields.io/badge/HACKEREARTH-0d1117?style=for-the-badge&labelColor=0d1117&color=2C3454&logo=hackerearth&logoColor=white"/></a>
-<a href="https://www.youtube.com/@anandsavarn1"><img src="https://img.shields.io/badge/YOUTUBE-0d1117?style=for-the-badge&labelColor=0d1117&color=FF0000&logo=youtube&logoColor=white"/></a>
-<a href="https://www.instagram.com/anand_savarn/"><img src="https://img.shields.io/badge/INSTAGRAM-0d1117?style=for-the-badge&labelColor=0d1117&color=E4405F&logo=instagram&logoColor=white"/></a>
+[![Portfolio](https://img.shields.io/badge/◈_PORTFOLIO-00d9ff?style=flat-square&logo=vercel&logoColor=white)](https://anandsavarn.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anandsavarn/)
+[![Kaggle](https://img.shields.io/badge/KAGGLE-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://www.kaggle.com/anandsavarn)
+[![LeetCode](https://img.shields.io/badge/LEETCODE-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/anandsavarn/)
+[![HackerRank](https://img.shields.io/badge/HACKERRANK-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/anandsavarn)
+[![Stack Overflow](https://img.shields.io/badge/STACK_OVERFLOW-F58025?style=flat-square&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/23034645/anand-kumar)
+[![GeeksforGeeks](https://img.shields.io/badge/GFG-2F8D46?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/anandswqmi/)
+[![CodeChef](https://img.shields.io/badge/CODECHEF-5B4638?style=flat-square&logo=codechef&logoColor=white)](https://www.codechef.com/users/anand_savarn)
+[![HackerEarth](https://img.shields.io/badge/HACKEREARTH-2C3454?style=flat-square&logo=hackerearth&logoColor=white)](https://www.hackerearth.com/@anandsavarn/)
+[![YouTube](https://img.shields.io/badge/YOUTUBE-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@anandsavarn1)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/anand_savarn/)
 
 </div>
 
-<br/>
+---
 
 <div align="center">
+ 
 
 *Consistency beats talent when talent doesn't work hard.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003459,35:001F3F,70:0A1128,100:000000&height=120&section=footer" width="100%"/>
+
+📡 anandsavarn@gmail.com &nbsp;·&nbsp; [github.com/Anandsavarn](https://github.com/Anandsavarn) &nbsp;·&nbsp; [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=400:00ff88,800:003300,800:0a0a0a&height=120&section=footer" width="100%"/>
 
 </div>
+
 
 
 
