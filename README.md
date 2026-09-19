@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=Turning+raw+data+into+deployable+intelligence;Building+Predictor.com+%E2%80%94+live+AI+stock+analytics;Python+%2B+Machine+Learning+%2B+International Business;Open+to+Data+Analyst+%C2%B7+ML+Engineer+%C2%B7+BI+roles" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2500&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=Turning+raw+data+into+deployable+intelligence;Building+Predictor.com+%E2%80%94+live+AI+stock+analytics;Python+%2B+Machine+Learning+%2B+International+Business;Open+to+Data+Analyst+%C2%B7+ML+Engineer+%C2%B7+BI+roles" alt="Typing SVG" />
 
 <br/>
 
