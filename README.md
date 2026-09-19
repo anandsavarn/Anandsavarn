@@ -23,7 +23,7 @@
 
 ## 👋 About Me
 
-I'm a **B.Tech CSE (Data Science)** student at **Lovely Professional University**, building AI-driven products end-to-end — from data pipeline to deployed interface.
+I'm a **B.Tech CSE (Data Science)** student at **Lovely Professional University, Punjab (INDIA)**, building AI-driven products end-to-end — from data pipeline to deployed interface.
 
 - 📘 Also knowledgeable in **International Finance Management** & **International Business**
 - 🔭 Currently building **[Predictor.com](https://predictor-65n3.onrender.com)** — a live AI-powered stock analytics platform
