@@ -169,22 +169,6 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:000000&height=3" width="100%"/>
 
-## 📊 GitHub Analytics
-
-<div align="center">
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=00F5FF&icon_color=00F5FF&text_color=c9d1d9&cache_seconds=1800"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F5FF&text_color=c9d1d9&cache_seconds=1800"/>
-</div>
-
-<div align="center">
-<img src="https://streak-stats.demolab.com/?user=anandsavarn&theme=tokyonight&hide_border=true&background=0d1117&ring=00F5FF&fire=00F5FF&currStreakLabel=00F5FF&sideLabels=c9d1d9"/>
-</div>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anandsavarn&theme=tokyo-night&bg_color=0d1117&color=00F5FF&line=00F5FF&point=ffffff&hide_border=true&area=true&area_color=00F5FF"/>
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:000000&height=3" width="100%"/>
 
 ## 🧩 LeetCode Performance
 <div align="center">
