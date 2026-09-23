@@ -170,11 +170,8 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5FF,100:000000&height=3" width="100%"/>
 
 ## 🧩 LeetCode Performance
-
 <div align="center">
-
-<img src="https://leetcard.jacoblin.cool/anandsavarn?theme=dark&font=JetBrains%20Mono" width="450"/>
-
+<img src="https://leetcard.jacoblin.cool/anandsavarn?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="55%"/>
 </div>
 
 ## 🧩 LeetCode Performance
