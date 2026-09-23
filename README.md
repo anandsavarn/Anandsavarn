@@ -173,6 +173,14 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 
 <div align="center">
 
+<img src="https://leetcard.jacoblin.cool/anandsavarn?theme=dark&font=JetBrains%20Mono" width="450"/>
+
+</div>
+
+## 🧩 LeetCode Performance
+
+<div align="center">
+
 <img src="https://leetcard.jacoblin.cool/anandsavarn?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="90%"/>
 
 </div>
