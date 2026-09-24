@@ -223,34 +223,3 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 
 
 
-# Hi, I'm Anand Kumar 👋
-
-<p align="center">
-  <img src="./assets/avatar-3d-animated.svg" alt="Anand Kumar animated 3D avatar" width="360" />
-</p>
-
-<h3 align="center">Data Science Engineer & Full-Stack Developer</h3>
-
-<p align="center">
-  B.Tech CSE (Data Science), Lovely Professional University — Class of 2027
-</p>
-
----
-
-### About Me
-
-- 🔭 Currently building **Predictor.com** — an AI-powered stock analytics platform
-- 🧠 Also working on **NeuroLoom**, an EEG-to-image generative AI system
-- 🎓 Completed a Data Analyst internship at Ratial Home Services Pvt. Ltd.
-- 🎯 Targeting roles as a **Data Analyst**, **Data Engineer**, or **ML Engineer**
-
-### Connect
-
-<p align="center">
-  <a href="https://anandsavarn.vercel.app"><img src="https://img.shields.io/badge/Portfolio-e6672c?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://leetcode.com/anandsavarn"><img src="https://img.shields.io/badge/LeetCode-111214?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-</p>
-
----
-
-<p align="center"><sub>The avatar above is a self-animating SVG — it plays automatically with no JavaScript, since GitHub strips scripts from README files but renders CSS animations declared inside an SVG.</sub></p>
