@@ -205,3 +205,91 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=400:00ff88,800:003300,800:0a0a0a&height=120&section=footer" width="100%"/>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 3D Interactive Avatar
+
+A mouse/touch-reactive 3D avatar component — the avatar tilts in perspective as you move your cursor across it, with a soft dynamic shadow and light glow that track the motion.
+
+<p align="center">
+  <img src="./assets/human-3d.svg" alt="3D human avatar illustration" width="320" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-e6672c?style=flat-square" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS-3D%20Transforms-111214?style=flat-square" alt="CSS 3D" />
+  <img src="https://img.shields.io/badge/JS-Vanilla-f4f3ef?style=flat-square&labelColor=0c0d0e" alt="Vanilla JS" />
+</p>
+
+## Overview
+
+This component renders a circular avatar that responds to pointer movement with a real-time 3D tilt effect (`perspective` + `rotateX/Y/Z` + `translate3d`), a contact shadow that compresses as the avatar lifts, and a radial glow that follows the cursor across the surface. It resets smoothly on mouse leave / touch end.
+
+## Features
+
+- Pointer-driven 3D tilt with configurable max rotation
+- Dynamic contact shadow that scales with tilt angle
+- Cursor-following radial glow overlay
+- Touch support for mobile (`touchmove` / `touchend`)
+- Zero dependencies — plain HTML, CSS, and JavaScript
+
+## Demo
+
+Open `avatar-3d.html` directly in a browser, or drop the markup/CSS/JS into an existing page.
+
+## Usage
+
+```html
+<div class="avatar-interactive" id="avatarWrap">
+  <div class="tilt" id="tilt">
+    <div class="shadow-blob" id="shadow"></div>
+    <img class="avatar-img" src="your-avatar.png" alt="Your Avatar" />
+    <div class="glow" id="glow"></div>
+  </div>
+</div>
+```
+
+Include the corresponding CSS and the pointer-tracking script from `avatar-3d.html`. Swap the placeholder image/fallback for your own avatar asset.
+
+## Configuration
+
+| Variable   | Location        | Description                          |
+|------------|-----------------|---------------------------------------|
+| `maxTilt`  | `<script>`      | Maximum rotation angle in degrees     |
+| `--chip-hover-border` | CSS     | Accent color on badge hover           |
+| `.avatar-img` background | CSS  | Fallback gradient when no image is set |
+
+## Tech Stack
+
+- HTML5
+- CSS3 (3D transforms, radial gradients)
+- Vanilla JavaScript (pointer + touch events)
+
+## Author
+
+**Anand Kumar**
+B.Tech CSE (Data Science), Lovely Professional University
+Data Science Engineer & Full-Stack Developer
+
+- Portfolio: [anandsavarn.vercel.app](https://anandsavarn.vercel.app)
+- LeetCode: [anandsavarn](https://leetcode.com/anandsavarn)
+
+## License
+
+MIT
