@@ -153,7 +153,7 @@ An Android app built to assist parents with data-driven parenting tools.</p>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00F5FF&height=3" width="100%"/>
 
 ## 📊 GitHub Analytics
-
+ 
 <div align="center">
 <img height="165em" src="https://github-readme-stats.vercel.app/api?username=anandsavarn&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00F5FF&icon_color=00F5FF&text_color=c9d1d9&cache_seconds=1800"/>
 <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anandsavarn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F5FF&text_color=c9d1d9&cache_seconds=1800"/>
